@@ -1,0 +1,3006 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Folder><name>border_candidates</name>
+  <Placemark id="border_candidates.1">
+	<name>B0000</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.69620070900216,6.46119709059836</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.2">
+	<name>B0001</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-1.37816129602315,5.53002062984865</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.3">
+	<name>B0002</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-1.8942572411533,7.05599659197462</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.4">
+	<name>B0003</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-1.25374756306168,5.6015473566443</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.5">
+	<name>B0004</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.543346384020338,6.06353363534397</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.6">
+	<name>B0005</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.554884341869011,6.11479444913981</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.7">
+	<name>B0006</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.55143398377065,6.06621488219416</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.8">
+	<name>B0007</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.42831468142182,6.99809536767876</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.9">
+	<name>B0008</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-1.80965663639015,5.41041248086869</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.10">
+	<name>B0009</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.310167767741239,6.31460950922814</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.11">
+	<name>B0010</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.556742619094661,6.11656292958289</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.12">
+	<name>B0011</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.20137939151171,5.15284641901308</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.13">
+	<name>B0012</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.548006545340455,6.07086426991847</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.14">
+	<name>B0013</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.75217283174346,6.40874916025213</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.15">
+	<name>B0014</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.501610015940355,6.28606311389803</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.16">
+	<name>B0015</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-1.34569835854983,5.61554509420302</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.17">
+	<name>B0016</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.06524995403502,5.71991352253932</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.18">
+	<name>B0017</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.94112688689679,6.5690612763512</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.19">
+	<name>B0018</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.33372271440657,6.2732795554916</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.20">
+	<name>B0019</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.76708216618454,6.53479298924317</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.21">
+	<name>B0020</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.440036360803164,6.33829323160917</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.22">
+	<name>B0021</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.30843944085279,6.34926708513346</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.23">
+	<name>B0022</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.36944352066207,5.89647719170568</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.24">
+	<name>B0023</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.418439572639932,6.33852059729827</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.25">
+	<name>B0024</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.524320127962549,6.30787770534189</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.26">
+	<name>B0025</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-1.1566656908163,5.42330520564801</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.27">
+	<name>B0026</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.33811793970234,5.91443846412819</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.28">
+	<name>B0027</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.548088955226818,6.13461689503909</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.29">
+	<name>B0028</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-1.8234167823683,5.63517121285174</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.30">
+	<name>B0029</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.36557160660437,6.44116373509243</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.31">
+	<name>B0030</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-1.88534251941016,5.58529106653704</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.32">
+	<name>B0031</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-1.35499019928783,5.67045687624046</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.33">
+	<name>B0032</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.63351986816829,6.80545800579931</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.34">
+	<name>B0033</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.68601193312149,6.44451145845142</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.35">
+	<name>B0034</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.28161026611,5.89286400682045</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.36">
+	<name>B0035</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.803459130927714,6.19083567882799</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.37">
+	<name>B0036</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.68104732328786,6.85941077869485</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.38">
+	<name>B0037</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.79504774104434,6.43781457009978</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.39">
+	<name>B0038</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-1.89386653719972,5.34994541695846</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.40">
+	<name>B0039</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-3.07326586093261,6.68402200226011</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.41">
+	<name>B0040</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.05730225886551,5.78071322507582</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.42">
+	<name>B0041</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.76070464907678,6.70417486684114</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.43">
+	<name>B0042</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.40976473851825,7.01137464085369</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.44">
+	<name>B0043</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.298985378298257,6.31290666242585</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.45">
+	<name>B0044</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-1.385497607934,5.54812236734466</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.46">
+	<name>B0045</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.548662868723836,6.12398699396725</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.47">
+	<name>B0046</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-1.94595907180928,5.15228007134912</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.48">
+	<name>B0047</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-1.24199459472246,5.56582286589453</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.49">
+	<name>B0048</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.46186242128724,6.96010666859033</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.50">
+	<name>B0049</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.524504086385896,6.36414531918845</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.51">
+	<name>B0050</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.31915005384496,5.99552342075302</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.52">
+	<name>B0051</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.568963133306174,6.08550219972327</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.53">
+	<name>B0052</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.3281342864663,6.49551783475801</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.54">
+	<name>B0053</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.26082033187407,6.40096051649387</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.55">
+	<name>B0054</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.35172668141132,6.44154702589507</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.56">
+	<name>B0055</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.08121730882976,5.92388350819908</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.57">
+	<name>B0056</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.31617785690081,6.01766713813737</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.58">
+	<name>B0057</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.13578759503198,5.03872224026076</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.59">
+	<name>B0058</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.533181857731486,6.07864024900066</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.60">
+	<name>B0059</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-1.85105634971634,5.25819347220453</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.61">
+	<name>B0060</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.18899649735505,5.30921449225815</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.62">
+	<name>B0061</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-3.08939025698031,6.70503808679191</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.63">
+	<name>B0062</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-1.25516301460271,5.38410802993404</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.64">
+	<name>B0063</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.556609965681639,6.13285198672442</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.65">
+	<name>B0064</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.504149407799243,6.22568794540438</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.66">
+	<name>B0065</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.76473414845151,6.70257131783133</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.67">
+	<name>B0066</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-1.91443342657272,5.66699833757035</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.68">
+	<name>B0067</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.30093046239166,6.81718535075742</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.69">
+	<name>B0068</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.10286229847208,7.01958356570504</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.70">
+	<name>B0069</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.68321790603206,6.86222950881575</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.71">
+	<name>B0070</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-1.22474755836247,5.48674254059175</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.72">
+	<name>B0071</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.574950590506644,6.15406761028446</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.73">
+	<name>B0072</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.541319850381609,6.21769050551377</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.74">
+	<name>B0073</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.542172871168175,6.12622042312743</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.75">
+	<name>B0074</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-1.16205897921227,5.434553157907</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.76">
+	<name>B0075</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.560631109014566,6.13405370860136</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.77">
+	<name>B0076</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.577724439577453,6.11934124220384</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.78">
+	<name>B0077</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.583520813306936,6.11511775453221</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.79">
+	<name>B0078</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.17872056854891,6.89100566424284</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.80">
+	<name>B0079</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-1.36305735712609,5.54787250889241</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.81">
+	<name>B0080</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.18815022730011,5.32227921141855</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.82">
+	<name>B0081</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.55958835833929,6.07673354421156</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.83">
+	<name>B0082</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.668976563251421,6.18911244118359</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.84">
+	<name>B0083</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-1.90628176994981,5.64158607933832</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.85">
+	<name>B0084</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.831626889157412,6.22965597081888</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.86">
+	<name>B0085</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.73407141534591,6.46823043806646</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.87">
+	<name>B0086</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-1.93629182889392,5.24196779216027</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.88">
+	<name>B0087</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.18854058807556,5.32836053615152</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.89">
+	<name>B0088</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.06473647985832,5.7241153152157</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.90">
+	<name>B0089</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.509752483325,7.02891594017992</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.91">
+	<name>B0090</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-1.25031252593917,5.60513279782106</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.92">
+	<name>B0091</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.515914227052158,6.20841541273707</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.93">
+	<name>B0092</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.04470736792944,5.76366969278561</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.94">
+	<name>B0093</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.04149889456183,5.74318171002389</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.95">
+	<name>B0094</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.543013227236456,6.12659586087604</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.96">
+	<name>B0095</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-1.82587893750199,5.26995935466483</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.97">
+	<name>B0096</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.27249669387068,6.56265545042793</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.98">
+	<name>B0097</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.541449431473678,6.11477329345731</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.99">
+	<name>B0098</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-1.9032631877584,5.40405624598724</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.100">
+	<name>B0099</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-1.90976072225143,5.87848413535313</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.101">
+	<name>B0100</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-1.90242931752704,5.40399077697538</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.102">
+	<name>B0101</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-1.23095657579712,5.50875794635386</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.103">
+	<name>B0102</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-1.20885811282065,5.42344203459167</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.104">
+	<name>B0103</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.06969201022235,5.73830828221786</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.105">
+	<name>B0104</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-1.89795593542097,5.56226079518403</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.106">
+	<name>B0105</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.593294658342803,6.14516136678211</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.107">
+	<name>B0106</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.868479115248309,6.32308169047765</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.108">
+	<name>B0107</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-1.87339997368168,5.59957491922709</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.109">
+	<name>B0108</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-3.12547191157342,6.58653773286841</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.110">
+	<name>B0109</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.517106661973524,6.29539711329205</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.111">
+	<name>B0110</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-3.12373873124044,6.58706905565833</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.112">
+	<name>B0111</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.0568195726695,5.69418525868219</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.113">
+	<name>B0112</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-1.84418121888951,5.67826934828933</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.114">
+	<name>B0113</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-1.87445950543675,7.06011536101521</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.115">
+	<name>B0114</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.0781130692181,5.11842868055655</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.116">
+	<name>B0115</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-1.97171895366377,5.5506550415937</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.117">
+	<name>B0116</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.27101082360738,6.29967172685918</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.118">
+	<name>B0117</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.521247477465979,6.33229025469605</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.119">
+	<name>B0118</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.557030830283771,6.06199300248313</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.120">
+	<name>B0119</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.534716213136144,6.06646119870019</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.121">
+	<name>B0120</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.510624812924783,6.07906341496259</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.122">
+	<name>B0121</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.25455509446134,6.53774332452623</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.123">
+	<name>B0122</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-1.17906614317847,5.39913208249967</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.124">
+	<name>B0123</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.41553728960335,7.02454042688235</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.125">
+	<name>B0124</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-1.12768678441219,5.63720779889188</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.126">
+	<name>B0125</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-1.1173486199723,5.66740768695661</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.127">
+	<name>B0126</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.43275649143726,7.05146158220208</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.128">
+	<name>B0127</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.05565986501923,5.5736440260777</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.129">
+	<name>B0128</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.36973200635316,6.45672039647463</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.130">
+	<name>B0129</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.844823088820428,6.19533342975021</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.131">
+	<name>B0130</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.12205056648853,5.87799975524864</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.132">
+	<name>B0131</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.554780362195363,6.05290014266983</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.133">
+	<name>B0132</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.431505369259058,6.3411714849508</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.134">
+	<name>B0133</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.554767982022303,6.05961641038026</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.135">
+	<name>B0134</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.55339578019771,6.12511932985372</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.136">
+	<name>B0135</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-1.11765893782017,5.44053894310676</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.137">
+	<name>B0136</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.67137192398855,6.32270317222679</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.138">
+	<name>B0137</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.514863416059792,6.20018835567219</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.139">
+	<name>B0138</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.64408550929392,6.96615618395417</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.140">
+	<name>B0139</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.295256804674412,6.32604939305564</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.141">
+	<name>B0140</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.303463928327747,6.30030019307714</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.142">
+	<name>B0141</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-1.18457161226441,5.60541218070844</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.143">
+	<name>B0142</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.561170363049326,6.07650905677828</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.144">
+	<name>B0143</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.525111435329232,6.11897946803196</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.145">
+	<name>B0144</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.528549107985693,6.22611260943837</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.146">
+	<name>B0145</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.1016018257622,6.56452002272794</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.147">
+	<name>B0146</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.539583883894361,6.06124417866862</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.148">
+	<name>B0147</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.515439069897642,6.28976796969948</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.149">
+	<name>B0148</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.43149465569629,7.01531351597263</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.150">
+	<name>B0149</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-1.26492265426503,5.51272494033257</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.151">
+	<name>B0150</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-1.32502299413708,5.64674613250716</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.152">
+	<name>B0151</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.521518296947922,6.30115194044151</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.153">
+	<name>B0152</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.16555250294055,5.83551672650222</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.154">
+	<name>B0153</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-1.36055194170838,5.67339082914373</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.155">
+	<name>B0154</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-1.83658382133722,5.63605774396856</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.156">
+	<name>B0155</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.68498522209305,6.41476095195446</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.157">
+	<name>B0156</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.578463769691545,6.10680664586826</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.158">
+	<name>B0157</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.09390441529473,5.34946047695161</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.159">
+	<name>B0158</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-1.95112132826923,5.16521352150147</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.160">
+	<name>B0159</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-1.25527111223496,5.37686356512176</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.161">
+	<name>B0160</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.548838091618518,6.10574458985823</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.162">
+	<name>B0161</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.479713474570996,6.24340293354499</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.163">
+	<name>B0162</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-1.34838946505718,5.61495085356457</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.164">
+	<name>B0163</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.581714113223493,6.12232606308593</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.165">
+	<name>B0164</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.495098807199438,6.30815072881239</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.166">
+	<name>B0165</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.27465556446697,5.99934813230466</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.167">
+	<name>B0166</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.45715988694021,6.95132472721981</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.168">
+	<name>B0167</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.17378637927489,5.31173735850783</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.169">
+	<name>B0168</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-1.25072394365185,5.37415034288777</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.170">
+	<name>B0169</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-1.89137217174475,5.6172233606679</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.171">
+	<name>B0170</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.5381193950665,7.04323403276767</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.172">
+	<name>B0171</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.546838582001715,6.05965455461094</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.173">
+	<name>B0172</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.09417465307145,6.63566623445517</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.174">
+	<name>B0173</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.542116282856559,6.08369559164438</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.175">
+	<name>B0174</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.3542923468091,5.90811216619734</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.176">
+	<name>B0175</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.480724452044014,6.28491020317305</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.177">
+	<name>B0176</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.08854531236284,5.88991511554602</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.178">
+	<name>B0177</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.01355710765731,5.87406015051097</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.179">
+	<name>B0178</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.505993847372823,6.22304543930403</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.180">
+	<name>B0179</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.75230365855615,6.49473914238744</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.181">
+	<name>B0180</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.577495289747546,6.10719609683574</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.182">
+	<name>B0181</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-1.98890369536216,5.67407624495006</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.183">
+	<name>B0182</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.422743450247014,6.36004210404974</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.184">
+	<name>B0183</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.520471015493099,6.34049425894154</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.185">
+	<name>B0184</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-1.93702103172704,5.2654162037407</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.186">
+	<name>B0185</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.1848938368692,5.33474020609592</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.187">
+	<name>B0186</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.17038334568345,5.31228946038662</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.188">
+	<name>B0187</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.506720757878782,6.29452527083077</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.189">
+	<name>B0188</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.28822606430007,6.02371342443248</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.190">
+	<name>B0189</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.06867373990658,5.67989291781988</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.191">
+	<name>B0190</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.35346401868792,5.88013275978543</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.192">
+	<name>B0191</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.542186215247672,6.06079049567335</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.193">
+	<name>B0192</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.77557802762797,6.53666310479506</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.194">
+	<name>B0193</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.10831947125693,5.15237879463321</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.195">
+	<name>B0194</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.449709360798645,6.33063007530338</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.196">
+	<name>B0195</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.827988824048273,6.25925331128638</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.197">
+	<name>B0196</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-1.82792159392922,5.41661478808</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.198">
+	<name>B0197</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-1.98153203326148,5.49741959332966</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.199">
+	<name>B0198</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.58518611290734,6.73142650410187</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.200">
+	<name>B0199</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.41496657647246,7.03915065491207</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.201">
+	<name>B0200</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.53963057668552,6.07631661337976</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.202">
+	<name>B0201</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.69316732889774,6.91514129818302</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.203">
+	<name>B0202</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.842280119281785,6.33163405363095</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.204">
+	<name>B0203</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-1.14895050440641,5.54225905870242</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.205">
+	<name>B0204</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.876092320127479,6.30532459866523</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.206">
+	<name>B0205</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.64438449242733,6.96480545757331</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.207">
+	<name>B0206</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-1.23102427700825,5.44587585212845</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.208">
+	<name>B0207</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-1.25858104715649,5.58734674729322</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.209">
+	<name>B0208</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-1.1040704971008,5.43945771618673</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.210">
+	<name>B0209</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-1.34554156605396,5.67778488552869</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.211">
+	<name>B0210</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.26245309581716,6.53746683072534</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.212">
+	<name>B0211</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.421249057894084,6.33434789545641</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.213">
+	<name>B0212</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-1.2495661769625,5.64805997719813</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.214">
+	<name>B0213</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-1.21033227433652,5.4179861248554</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.215">
+	<name>B0214</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-1.94071399070147,5.41447757768924</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.216">
+	<name>B0215</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.840096839175459,6.32514456921422</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.217">
+	<name>B0216</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.81901434445191,6.70436779660481</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.218">
+	<name>B0217</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.583877398443244,6.12923623899623</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.219">
+	<name>B0218</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-1.37330887416429,5.65180303020274</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.220">
+	<name>B0219</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-1.98195856168166,5.49663979661573</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.221">
+	<name>B0220</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.69300838058612,6.91148250492837</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.222">
+	<name>B0221</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.496223797967008,6.23515501968838</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.223">
+	<name>B0222</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.34423288571061,5.91722086732408</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.224">
+	<name>B0223</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.01710522004899,7.04421567748922</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.225">
+	<name>B0224</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.297356868409309,6.36357758080966</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.226">
+	<name>B0225</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.17885171713338,5.30444447196894</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.227">
+	<name>B0226</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.545197756894145,6.11649210575802</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.228">
+	<name>B0227</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-1.83866857579238,5.3929435934844</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.229">
+	<name>B0228</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.326935515872833,6.32660226545917</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.230">
+	<name>B0229</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.577462912373814,6.08611485535659</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.231">
+	<name>B0230</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-1.34939308140845,5.60622084095348</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.232">
+	<name>B0231</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-1.36803423286607,5.65430998388248</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.233">
+	<name>B0232</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.73782417382552,6.47081072103982</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.234">
+	<name>B0233</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.79186290150809,6.45797448825001</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.235">
+	<name>B0234</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.436202945551032,6.33938542054309</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.236">
+	<name>B0235</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-1.41871969817878,5.56173977618892</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.237">
+	<name>B0236</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-1.22457064730026,5.41822943902855</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.238">
+	<name>B0237</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.54142939072539,6.10048180874221</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.239">
+	<name>B0238</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-1.35345486657764,5.67185501177262</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.240">
+	<name>B0239</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.510096224794113,6.06846124148631</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.241">
+	<name>B0240</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.592449285018789,6.11996355289921</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.242">
+	<name>B0241</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-1.24603688334369,5.60790877819708</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.243">
+	<name>B0242</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-1.83966966455849,5.64762080812995</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.244">
+	<name>B0243</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.69718150539101,6.43909137243231</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.245">
+	<name>B0244</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.77943459583565,6.71383944311046</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.246">
+	<name>B0245</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-3.05168661729142,6.67829185021256</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.247">
+	<name>B0246</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-1.84520804643476,5.43517003982144</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.248">
+	<name>B0247</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.527857105976004,6.05526109448148</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.249">
+	<name>B0248</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.38755830661858,7.01547663562749</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.250">
+	<name>B0249</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.72301816733954,6.48075712440495</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.251">
+	<name>B0250</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.29114163942562,6.4252123668377</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.252">
+	<name>B0251</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.320205797509788,6.32001011991177</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.253">
+	<name>B0252</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.28326477732869,5.89398007649363</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.254">
+	<name>B0253</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-1.9426773100527,5.87752012436037</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.255">
+	<name>B0254</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.35567873934876,6.54537132180996</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.256">
+	<name>B0255</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.18602196894298,5.32283225572462</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.257">
+	<name>B0256</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.553529724422246,6.12052889929333</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.258">
+	<name>B0257</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.460394858083266,6.36559313937142</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.259">
+	<name>B0258</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.23485164547071,5.27843788524483</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.260">
+	<name>B0259</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.539078800442209,6.08759359443664</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.261">
+	<name>B0260</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-1.20976046916329,5.41757349608458</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.262">
+	<name>B0261</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.54758603326619,6.72354269030829</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.263">
+	<name>B0262</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.21661510376485,6.22630343446504</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.264">
+	<name>B0263</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.55503806817894,7.03155864946428</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.265">
+	<name>B0264</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.507873288519029,6.35564415690458</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.266">
+	<name>B0265</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.20469283131739,5.3371519390203</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.267">
+	<name>B0266</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.458711742167865,6.38149230412021</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.268">
+	<name>B0267</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.59044889901792,6.1467198467729</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.269">
+	<name>B0268</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.77741294066724,6.70985567425673</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.270">
+	<name>B0269</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.559172894059135,6.12895023101255</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.271">
+	<name>B0270</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.18353285975021,6.61232981520631</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.272">
+	<name>B0271</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.73307951439831,6.49428583717404</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.273">
+	<name>B0272</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.04154858083899,5.74347426009996</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.274">
+	<name>B0273</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-1.16294257671212,5.40651453660951</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.275">
+	<name>B0274</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.468617825727316,6.38109071887863</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.276">
+	<name>B0275</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-1.24361515730937,5.50407899674785</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.277">
+	<name>B0276</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.28915240117972,5.97775059314846</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.278">
+	<name>B0277</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.16805986080248,5.28098360275095</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.279">
+	<name>B0278</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.70807630035062,6.87687693694899</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.280">
+	<name>B0279</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.14569366495902,5.765125396868</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.281">
+	<name>B0280</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.459945776640882,6.32546184860927</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.282">
+	<name>B0281</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.561271398092746,6.14097312268312</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.283">
+	<name>B0282</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.459950522608604,6.37002010151326</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.284">
+	<name>B0283</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-1.92683395098975,5.91016492030253</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.285">
+	<name>B0284</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-1.9473352906425,5.32334158155044</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.286">
+	<name>B0285</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-1.99172055375831,6.74464864907381</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.287">
+	<name>B0286</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.540998645697118,6.11758327841197</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.288">
+	<name>B0287</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-1.22850088864158,5.55756467936529</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.289">
+	<name>B0288</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.62630243266757,6.96853603761688</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.290">
+	<name>B0289</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.526923392483433,6.13069454254161</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.291">
+	<name>B0290</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.16724876962609,5.31985727318614</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.292">
+	<name>B0291</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.826385204298677,6.2730998911409</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.293">
+	<name>B0292</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.63193217715322,6.96170106017608</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.294">
+	<name>B0293</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.54985450813323,6.12809129180284</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.295">
+	<name>B0294</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.437922604940035,6.35023275827394</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.296">
+	<name>B0295</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.794366256940992,6.30877421979848</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.297">
+	<name>B0296</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.3083522412143,5.86979330726401</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.298">
+	<name>B0297</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.608046416649,6.80443066385936</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.299">
+	<name>B0298</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.498993972119963,6.25984785091891</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.300">
+	<name>B0299</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.560031972527867,6.09855132341502</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.301">
+	<name>B0300</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-1.18031094374216,5.50237689403099</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.302">
+	<name>B0301</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.04370560197299,5.76078217397264</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.303">
+	<name>B0302</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.03467208954907,5.75597302992455</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.304">
+	<name>B0303</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.839821477426803,6.24592033508148</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.305">
+	<name>B0304</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.781471620250176,6.31531596728085</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.306">
+	<name>B0305</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.572619285832002,6.12541650949561</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.307">
+	<name>B0306</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.27514907650317,6.41086574620978</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.308">
+	<name>B0307</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-1.91270138061557,5.58466835995639</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.309">
+	<name>B0308</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.19013319608801,5.32502533860581</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.310">
+	<name>B0309</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.44172574619246,7.00378915040823</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.311">
+	<name>B0310</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.45467027891908,6.99721087382123</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.312">
+	<name>B0311</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.29594464394299,6.548513885521</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.313">
+	<name>B0312</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.00080954693679,5.68105590985716</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.314">
+	<name>B0313</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-1.82985833396111,5.41816310920339</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.315">
+	<name>B0314</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.76198874713629,6.56925354570712</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.316">
+	<name>B0315</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.3061870605005,6.51870853087401</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.317">
+	<name>B0316</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.7374243630423,6.40566214724391</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.318">
+	<name>B0317</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-1.81038502429195,5.40500604283366</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.319">
+	<name>B0318</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.484117216990066,6.25742929522755</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.320">
+	<name>B0319</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-1.82658811828482,5.63817634371887</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.321">
+	<name>B0320</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-1.84104474490527,7.05607571216914</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.322">
+	<name>B0321</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.34473056678566,5.90021128166719</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.323">
+	<name>B0322</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-3.03686775806942,6.57550993318554</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.324">
+	<name>B0323</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.458255552987746,6.37278431911468</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.325">
+	<name>B0324</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.20695021484191,6.2861506265563</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.326">
+	<name>B0325</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.216834613531,6.28987482799445</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.327">
+	<name>B0326</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.466824724688202,6.36658212517639</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.328">
+	<name>B0327</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.28143979411341,5.89249385976256</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.329">
+	<name>B0328</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.569749479575688,6.0881037943237</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.330">
+	<name>B0329</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.7633352616412,6.55175616539122</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.331">
+	<name>B0330</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.739832757964001,6.13017966805018</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.332">
+	<name>B0331</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-1.91939083430704,5.57262134379176</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.333">
+	<name>B0332</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.820175160485097,6.26922682514828</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.334">
+	<name>B0333</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.12738102924239,5.87786662550754</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.335">
+	<name>B0334</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.555261865810175,6.09644859244849</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.336">
+	<name>B0335</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.536037373889834,6.0819394616847</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.337">
+	<name>B0336</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.78569693524722,6.55099477985286</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.338">
+	<name>B0337</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.54505334433766,6.05041610856998</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.339">
+	<name>B0338</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.787870036660577,6.32236242939923</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.340">
+	<name>B0339</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.577730028386402,6.11605579255926</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.341">
+	<name>B0340</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.287831844270455,6.37143564643298</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.342">
+	<name>B0341</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-1.98667609269152,5.52888398505928</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.343">
+	<name>B0342</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.2789886411636,5.89719154556231</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.344">
+	<name>B0343</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.314071450862607,6.3349012571409</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.345">
+	<name>B0344</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.428704405205877,6.34514493276176</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.346">
+	<name>B0345</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-1.84374917630398,5.30207496197105</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.347">
+	<name>B0346</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.553900810048671,6.14015148721463</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.348">
+	<name>B0347</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-1.80518322775066,5.41157432694137</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.349">
+	<name>B0348</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.73316671916173,6.46416898748711</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.350">
+	<name>B0349</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-1.21390770692386,5.51221118005394</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.351">
+	<name>B0350</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.19961971307263,6.58760673227315</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.352">
+	<name>B0351</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.32959991108174,6.4968238257672</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.353">
+	<name>B0352</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.521485377950825,6.3416817361832</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.354">
+	<name>B0353</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.545032076549786,6.11819148336</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.355">
+	<name>B0354</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.543405938527383,6.09791381339987</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.356">
+	<name>B0355</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.491893737812724,6.2391265477431</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.357">
+	<name>B0356</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.18376250365194,5.98047234169272</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.358">
+	<name>B0357</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.52872054241666,7.03708903638071</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.359">
+	<name>B0358</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.471974909919469,6.39514432156034</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.360">
+	<name>B0359</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.837879537706436,6.2539915050696</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.361">
+	<name>B0360</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.56971366061431,6.72642119619009</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.362">
+	<name>B0361</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.32809541053712,5.97266170530606</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.363">
+	<name>B0362</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.745980098361999,6.17395328920793</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.364">
+	<name>B0363</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.22384324550396,6.30424882417987</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.365">
+	<name>B0364</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.522514000288028,6.30670432468894</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.366">
+	<name>B0365</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.04954241118135,5.77365912094395</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.367">
+	<name>B0366</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-1.93467385791204,5.86669809985256</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.368">
+	<name>B0367</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.583830578096678,6.14596368224039</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.369">
+	<name>B0368</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-1.39756366993495,5.63773564382429</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.370">
+	<name>B0369</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.57971543743304,6.11471893364295</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.371">
+	<name>B0370</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-1.12455261178878,5.55310580899774</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.372">
+	<name>B0371</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.550363439030648,6.06110728004618</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.373">
+	<name>B0372</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-1.81905850739828,5.65699597872518</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.374">
+	<name>B0373</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.515770364286021,6.20809677137508</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.375">
+	<name>B0374</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.34746722031963,5.90803074964328</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.376">
+	<name>B0375</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.18672536517273,5.31329570464529</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.377">
+	<name>B0376</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.63076985322146,6.96668795631316</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.378">
+	<name>B0377</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.455763224819548,6.37303457851509</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.379">
+	<name>B0378</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-1.21564830285845,5.65774842483599</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.380">
+	<name>B0379</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.17845279725086,5.2696544943733</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.381">
+	<name>B0380</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.55896991867386,6.75068177841687</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.382">
+	<name>B0381</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.569556986840637,6.07509536295393</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.383">
+	<name>B0382</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.56318782036201,6.09104263231638</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.384">
+	<name>B0383</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-1.35295386475007,5.63246331741377</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.385">
+	<name>B0384</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.18879899788716,5.31784256752478</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.386">
+	<name>B0385</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-1.93859633998609,5.17848125766927</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.387">
+	<name>B0386</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.71256757875548,6.82674061655109</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.388">
+	<name>B0387</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.518105827498084,6.28531183428577</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.389">
+	<name>B0388</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-1.41045731512079,5.62288917326078</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.390">
+	<name>B0389</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.25390013142469,5.26917221716612</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.391">
+	<name>B0390</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.516239235278467,6.28433889039331</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.392">
+	<name>B0391</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.429956032112095,6.34560270614093</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.393">
+	<name>B0392</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.548193536090019,6.06837330644007</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.394">
+	<name>B0393</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-1.87940359218277,5.59060022805415</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.395">
+	<name>B0394</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.314887944930929,6.31221479443439</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.396">
+	<name>B0395</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-1.9949573128254,5.4745938704348</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.397">
+	<name>B0396</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.545397855057978,6.12360289388684</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.398">
+	<name>B0397</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.2379888865685,5.902620317865</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.399">
+	<name>B0398</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.567290845305311,6.08231797027675</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.400">
+	<name>B0399</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.548363752102911,6.12085680357219</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.401">
+	<name>B0400</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.2076760568328,6.29146888047219</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.402">
+	<name>B0401</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.32972853413648,6.49370229566022</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.403">
+	<name>B0402</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.307713788918003,6.33559871650035</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.404">
+	<name>B0403</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.454436168162107,6.37255827567122</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.405">
+	<name>B0404</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-1.41026223013725,5.63753929560953</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.406">
+	<name>B0405</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-1.88325208244725,5.5891777932921</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.407">
+	<name>B0406</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.439595015302917,6.36935117461524</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.408">
+	<name>B0407</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-1.81421176679391,5.66549749151324</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.409">
+	<name>B0408</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-1.94897653312884,7.0095570215047</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.410">
+	<name>B0409</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.54750789376886,6.7409274412629</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.411">
+	<name>B0410</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.83199102524223,6.25461806707956</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.412">
+	<name>B0411</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.5451569031637,6.04298050565736</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.413">
+	<name>B0412</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-1.38283760941958,5.65863894594561</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.414">
+	<name>B0413</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.55547141606528,6.74245893042666</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.415">
+	<name>B0414</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.574617442320903,6.11883336781999</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.416">
+	<name>B0415</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.590013584878906,6.19059996135329</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.417">
+	<name>B0416</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.35935487298191,5.91641151804751</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.418">
+	<name>B0417</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.807981673782159,6.21200019989663</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.419">
+	<name>B0418</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-1.15149011994597,5.39703639868041</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.420">
+	<name>B0419</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-1.23511963170013,5.42835623463248</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.421">
+	<name>B0420</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.018685060994,7.02049974693338</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.422">
+	<name>B0421</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.516492238914898,6.19083958095142</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.423">
+	<name>B0422</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.496530303142571,6.22896167285308</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.424">
+	<name>B0423</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.15144604897256,6.95330728381304</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.425">
+	<name>B0424</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.522574179707656,6.30892080187501</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.426">
+	<name>B0425</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.499354823885642,6.23225009186992</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.427">
+	<name>B0426</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.71246554931184,6.89169186497216</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.428">
+	<name>B0427</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.519817559385172,6.26948652287126</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.429">
+	<name>B0428</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.18918462994411,5.34634171912004</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.430">
+	<name>B0429</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.681637008563646,6.19188456539539</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.431">
+	<name>B0430</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.20176252905339,5.13067606993512</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.432">
+	<name>B0431</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-1.17153661628249,5.40608479124067</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.433">
+	<name>B0432</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.42288475823253,6.31641330895949</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.434">
+	<name>B0433</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.05558644932642,5.68688821024706</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.435">
+	<name>B0434</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.38605886622207,7.03091462716121</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.436">
+	<name>B0435</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.539411656225505,6.07836680961531</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.437">
+	<name>B0436</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-1.15277327835994,5.55146583086504</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.438">
+	<name>B0437</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.47431281123959,6.96298528697154</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.439">
+	<name>B0438</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.04565690969011,5.77481481250156</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.440">
+	<name>B0439</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.498822582815874,6.31015880546403</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.441">
+	<name>B0440</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-1.36540996233444,5.66493153071627</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.442">
+	<name>B0441</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.74269809317119,6.69834544926611</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.443">
+	<name>B0442</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.303789197816002,6.30965236533547</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.444">
+	<name>B0443</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-1.91778849112709,5.26889436030012</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.445">
+	<name>B0444</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-1.89694013152733,5.40298327148972</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.446">
+	<name>B0445</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.308482348360942,6.30067901640032</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.447">
+	<name>B0446</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.92539912837059,6.45438979225603</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.448">
+	<name>B0447</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.534459445630767,6.0583656384859</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.449">
+	<name>B0448</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-1.84126627787051,5.6747586561873</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.450">
+	<name>B0449</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-1.22727541004216,5.51458390574545</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.451">
+	<name>B0450</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.23220760362509,6.27053126731045</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.452">
+	<name>B0451</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.525003830130015,6.34494804334416</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.453">
+	<name>B0452</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.18963387719567,6.61015409914935</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.454">
+	<name>B0453</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.28849716978308,5.89878939517376</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.455">
+	<name>B0454</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.890721255461273,6.32959534094509</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.456">
+	<name>B0455</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.483742610587103,6.25243745354559</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.457">
+	<name>B0456</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.566841410228221,6.0781905959741</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.458">
+	<name>B0457</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-1.92001557504909,5.58058355162411</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.459">
+	<name>B0458</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.29606889396305,5.89707590180941</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.460">
+	<name>B0459</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.32465093266149,6.49526541149181</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.461">
+	<name>B0460</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-1.92235269685296,5.24136691826777</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.462">
+	<name>B0461</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.53879602479921,7.04354624765713</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.463">
+	<name>B0462</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.16900449418669,5.33724134799842</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.464">
+	<name>B0463</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.02439556938023,7.05854056267271</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.465">
+	<name>B0464</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.57531549672076,6.14923741208058</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.466">
+	<name>B0465</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-1.82150457697875,5.45956470166009</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.467">
+	<name>B0466</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.563649179929696,6.13345317325433</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.468">
+	<name>B0467</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.32429832167344,6.29539741668739</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.469">
+	<name>B0468</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-1.3602660031363,5.5226422132968</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.470">
+	<name>B0469</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.21208132914017,5.31683726875167</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.471">
+	<name>B0470</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.523411102591733,6.20188789096175</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.472">
+	<name>B0471</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.33547232260066,6.49149237453582</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.473">
+	<name>B0472</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.509878131734037,6.21067427467518</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.474">
+	<name>B0473</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.428207021915747,6.35851230077798</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.475">
+	<name>B0474</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-1.41701028143978,5.54702472706705</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.476">
+	<name>B0475</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-1.1286971652748,5.67593415067253</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.477">
+	<name>B0476</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-1.36002817329022,5.52231256370224</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.478">
+	<name>B0477</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.545256277908409,6.09938516748952</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.479">
+	<name>B0478</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-1.8531694399145,5.29689317323996</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.480">
+	<name>B0479</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.486791269678368,6.25024374271388</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.481">
+	<name>B0480</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-1.8871999935349,5.37079957932396</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.482">
+	<name>B0481</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-1.83957823247751,5.66416832083937</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.483">
+	<name>B0482</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.64222501494023,6.95394041158921</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.484">
+	<name>B0483</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-1.17103364568837,5.43319536995791</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.485">
+	<name>B0484</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.491250694107824,6.24720637747817</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.486">
+	<name>B0485</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-1.24312911256167,5.38868440101778</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.487">
+	<name>B0486</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.12558614097448,5.03232144487908</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.488">
+	<name>B0487</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.56021214935384,6.08037795044564</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.489">
+	<name>B0488</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.536789444361319,6.12851045500523</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.490">
+	<name>B0489</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.18144071988096,5.17206395360581</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.491">
+	<name>B0490</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.294043536083012,6.32823973509577</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.492">
+	<name>B0491</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-1.89245092879458,5.61604764551169</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.493">
+	<name>B0492</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.420811193663791,6.33594233833495</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.494">
+	<name>B0493</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-1.34968144955578,5.61106221970408</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.495">
+	<name>B0494</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-1.8854176954565,5.63957372414502</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.496">
+	<name>B0495</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.68426925288847,6.4221728633126</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.497">
+	<name>B0496</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-1.40879004684918,5.63250911628751</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.498">
+	<name>B0497</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.72095586785379,6.8024503781088</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.499">
+	<name>B0498</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.504397559136327,6.28722005867116</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.500">
+	<name>B0499</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.302488921431678,6.30135877229732</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.501">
+	<name>B0500</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.07293907364933,6.66632730367374</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.502">
+	<name>B0501</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.30509158728855,6.81893957617538</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.503">
+	<name>B0502</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.538146213566937,6.06575579773631</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.504">
+	<name>B0503</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.03684816829849,7.02603915905449</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.505">
+	<name>B0504</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.584632985432435,6.1525848690584</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.506">
+	<name>B0505</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.17985374317091,5.3208853384837</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.507">
+	<name>B0506</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-3.07399769001868,6.72622029153595</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.508">
+	<name>B0507</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-1.40785946049644,5.64131139315802</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.509">
+	<name>B0508</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.18015111462614,5.3361837924646</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.510">
+	<name>B0509</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.502709303868994,6.22941363248432</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.511">
+	<name>B0510</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.28479100269776,6.39751739937261</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.512">
+	<name>B0511</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-1.95155410507937,5.93149639026941</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.513">
+	<name>B0512</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.05599648762762,5.69225846147911</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.514">
+	<name>B0513</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.471681615971559,6.24006609042252</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.515">
+	<name>B0514</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.28789923379594,5.99427558358931</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.516">
+	<name>B0515</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-1.17891129767068,5.39098668444427</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.517">
+	<name>B0516</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-1.15726404730024,5.43159491009802</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.518">
+	<name>B0517</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.56406215107501,6.06590636832663</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.519">
+	<name>B0518</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-1.21606349526284,5.51265379682294</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.520">
+	<name>B0519</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.16028137779881,5.28286141111731</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.521">
+	<name>B0520</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.7640313996441,6.6916894554651</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.522">
+	<name>B0521</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.07525620932938,5.55437717611256</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.523">
+	<name>B0522</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.32690789490292,6.30342563748147</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.524">
+	<name>B0523</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.589144425018064,6.16510319673282</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.525">
+	<name>B0524</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-1.12179457407067,5.65103394042031</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.526">
+	<name>B0525</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.43968531221799,6.99843601578473</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.527">
+	<name>B0526</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.578936519142569,6.11537458097541</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.528">
+	<name>B0527</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.587658322671863,6.07764309206538</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.529">
+	<name>B0528</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-1.16761958580759,5.44790559573026</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.530">
+	<name>B0529</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.54481861643466,7.04346466202565</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.531">
+	<name>B0530</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-3.07813090156745,6.7301017168944</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.532">
+	<name>B0531</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.799218913711447,6.186564184138</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.533">
+	<name>B0532</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.06686477770735,5.68492263593705</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.534">
+	<name>B0533</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.419888078863353,6.35594007828314</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.535">
+	<name>B0534</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-1.8961700372081,5.44899570422594</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.536">
+	<name>B0535</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.3420682635216,6.28689806321954</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.537">
+	<name>B0536</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-1.90521783534355,7.04250976516287</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.538">
+	<name>B0537</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.59409909959266,6.12356097151944</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.539">
+	<name>B0538</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.518853377985749,6.2709057679384</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.540">
+	<name>B0539</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-1.95794315420969,6.99736980754556</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.541">
+	<name>B0540</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.25196367088643,5.28801412652924</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.542">
+	<name>B0541</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.542492104255899,6.11423955805584</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.543">
+	<name>B0542</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.549329761468279,6.1346881778933</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.544">
+	<name>B0543</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-1.92713999797059,5.17543458503564</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.545">
+	<name>B0544</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-1.93715319696609,5.86219915353179</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.546">
+	<name>B0545</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.67026207750492,6.32368717270556</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.547">
+	<name>B0546</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.84773345655152,6.70862693264778</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.548">
+	<name>B0547</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.04578706587186,7.03028862831387</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.549">
+	<name>B0548</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.429102153991169,6.37553497578875</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.550">
+	<name>B0549</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.528985095442614,6.22525258964492</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.551">
+	<name>B0550</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.506200025098164,6.191047032122</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.552">
+	<name>B0551</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.594606025744195,6.18202885427389</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.553">
+	<name>B0552</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.428533409896333,6.35040813697601</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.554">
+	<name>B0553</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.6549726226106,6.44964531368463</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.555">
+	<name>B0554</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.566708952175497,6.08099808140684</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.556">
+	<name>B0555</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.02924756364855,5.71362389153297</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.557">
+	<name>B0556</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-1.09611319662492,5.41829590930709</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.558">
+	<name>B0557</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.6699677751783,6.3290989975833</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.559">
+	<name>B0558</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.542271291920909,6.07334679154411</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.560">
+	<name>B0559</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.545958817159847,6.06524765145878</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.561">
+	<name>B0560</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.45489883567016,6.945376525916</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.562">
+	<name>B0561</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.23297015003262,6.32898552375258</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.563">
+	<name>B0562</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.318582572689896,6.31900481065513</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.564">
+	<name>B0563</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.57471970924754,6.08204528760909</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.565">
+	<name>B0564</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.17070122739061,6.95482726158504</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.566">
+	<name>B0565</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.576088864045333,6.0965165444234</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.567">
+	<name>B0566</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.06143569349644,5.77216599670852</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.568">
+	<name>B0567</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.525732325912931,6.33963272848195</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.569">
+	<name>B0568</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.02217547042682,5.89242874428421</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.570">
+	<name>B0569</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.517771242426187,6.20813352855534</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.571">
+	<name>B0570</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.6290533296146,6.80102367090319</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.572">
+	<name>B0571</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.423605694137753,6.3533204588563</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.573">
+	<name>B0572</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.32384299713381,6.27949356697327</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.574">
+	<name>B0573</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.570022949118995,6.06976571012805</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.575">
+	<name>B0574</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.551426579625494,6.11981450133162</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.576">
+	<name>B0575</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-1.24513089155339,5.59079491125307</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.577">
+	<name>B0576</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.0201966358533,7.01408844897911</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.578">
+	<name>B0577</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-1.94235445094481,5.86670876947215</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.579">
+	<name>B0578</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.74600559039472,6.46019371687194</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.580">
+	<name>B0579</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.808074559023388,6.17908352399162</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.581">
+	<name>B0580</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.5293200432249,6.34188007557348</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.582">
+	<name>B0581</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.308562994456432,6.35686675522027</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.583">
+	<name>B0582</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.12271208099875,7.02929973100758</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.584">
+	<name>B0583</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.441221446495983,6.34815077443038</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.585">
+	<name>B0584</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-1.23995377113515,5.4383373240031</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.586">
+	<name>B0585</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.586220205577835,6.15304264758948</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.587">
+	<name>B0586</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.03493327191103,5.66967328595694</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.588">
+	<name>B0587</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.32047811299437,6.29305378445386</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.589">
+	<name>B0588</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.565396656578368,6.09576352018235</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.590">
+	<name>B0589</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.35793088623879,6.43165465271121</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.591">
+	<name>B0590</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-1.9611996942507,5.15764768118128</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.592">
+	<name>B0591</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.21908648419345,6.28460929573696</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.593">
+	<name>B0592</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.53827727986654,7.01658379157177</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.594">
+	<name>B0593</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-1.83270336553782,7.06995518505172</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.595">
+	<name>B0594</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-2.10267947888062,6.64496226617085</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.596">
+	<name>B0595</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.25215859371065,5.28392193554338</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.597">
+	<name>B0596</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.434101664407623,6.31660002619186</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.598">
+	<name>B0597</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-2.17109070395598,5.30055176269324</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.599">
+	<name>B0598</name>
+	<description>labeler: ben</description>
+      <Point><coordinates>-0.554523889340538,6.13946231220176</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_candidates.600">
+	<name>B0599</name>
+	<description>labeler: kyvalya</description>
+      <Point><coordinates>-0.485907958240258,6.24958363214854</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>
