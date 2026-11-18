@@ -20,3 +20,13 @@ Esri Wayback has almost no 2019-2021 imagery here: "before" chips are mostly 201
 the same capture on both sides. Where the two dates differ, most look like farm mosaic in both, not
 closed forest -> farm. So Hansen loss + recent replanting mostly reflects replanting of old cocoa, not
 deforestation. **Treat `converted` as unreliable; report it only as a small, caveated slice, or drop it.**
+
+## Studio runs
+- v0 `bc5c9bbb-a9f6-473c-95cd-74ad9cef82ff` (Base, fine-tuned, S2, 160 m, Jan-Dec, spatial 85/15): started 06:25 UTC.
+  48% at ~08:16, 56% at 11:07 UTC (~3%/h after a faster start). Progress % is only in the UI tooltip, not the API.
+- Frozen-encoder probe `80d08a99-2e26-4367-9b7f-718492b04f41` (same config, freeze_encoder=True, default LR):
+  queued 11:20 UTC. Studio estimated ~31 compute units (same as v0; the estimate may ignore freezing).
+
+## Prediction plan once a model finishes (scripts/studio_predict.py)
+- held-out 2024-25: data/test2024/holdout2024.csv (2,223 pts, <=400 per source, per-point year windows)
+- 2020: data/test2020/test2020.csv (1,764 pts), window 2020-01-01..2020-12-31
