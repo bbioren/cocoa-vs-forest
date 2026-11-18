@@ -73,3 +73,10 @@ v0 3-class acc 0.72, macro F1 0.74. Main error: degraded forest -> cocoa (12/20)
 (degraded + converted) at the cost of some cocoa -> forest false alarms (4/30). *GFC cocoa score is circular (FDaP mask).
 
 Submitted full runs: test2020 (1,764 pts, 66e26aea) and holdout2024 (2,223 pts, per-row year windows, 32864543). ~40 units expected.
+
+## Full test2020, v0 (prediction 66e26aea, done ~19:20 UTC)
+n=1,764. 3-class acc 0.823, macro F1 0.810. Forest vs not-forest: acc 0.836, recall 0.840, precision 0.704
+(GFC2020: acc 0.907, recall 0.711, precision 0.998).
+Per slice v0 / GFC2020: cocoa 0.884 / 0.999*, reserve 1.0 / 1.0, degraded 0.449 / 0.008, converted 0.459 / 0.0,
+other 0.675 / 1.0. Main v0 errors: other -> forest (109, oil palm/rubber), cocoa -> forest (90).
+Takeaway: v0 finds far more of the forest GFC2020 misses, but over-calls forest on tree crops. holdout2024 still running.
