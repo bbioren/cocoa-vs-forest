@@ -56,3 +56,20 @@ wandb: https://wandb.ai/eai-ai2/olmoearth_run_develop/runs/65ynp9fg (Ai2-interna
 - Compute meter: 80/500 after v0 (31) + probe (31) + trial -> trial ~18 units?? Cost may scale with the
   raster extent Studio builds around grouped windows, not with point count. Measuring with a 100-point
   stratified batch (f310998d, data/test2020/batch100.csv) before running the full sets.
+
+## 100-point 2020 batch (v0, prediction f310998d) — 17:12 UTC
+Stratified: cocoa 30, reserve 20, degraded 20, other 20, converted 10. Cost: meter 80 -> 90, so ~0.1 unit/point.
+
+| slice | v0 | GFC2020 |
+|---|---|---|
+| cocoa_2020 (30) | 0.867 | 1.0* |
+| forest_reserve (20) | 1.0 | 1.0 |
+| forest_degraded (20) | 0.25 | 0.0 |
+| other_2020 (20) | 0.80 | 1.0 (as not-forest) |
+| converted (10) | 0.50 | 0.0 |
+| forest-binary acc / recall / precision | 0.73 / 0.60 / 0.81 | 0.70 / 0.40 / 1.0 |
+
+v0 3-class acc 0.72, macro F1 0.74. Main error: degraded forest -> cocoa (12/20). Model recovers some of the forest GFC2020 misses
+(degraded + converted) at the cost of some cocoa -> forest false alarms (4/30). *GFC cocoa score is circular (FDaP mask).
+
+Submitted full runs: test2020 (1,764 pts, 66e26aea) and holdout2024 (2,223 pts, per-row year windows, 32864543). ~40 units expected.
