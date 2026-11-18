@@ -52,3 +52,13 @@ Commit the edited CSV or GeoPackage. The training-set builder will merge:
 - labels other than `unsure`
 
 Points where both of you labelled and disagree are dropped.
+
+## Labelling page (recommended)
+
+A shared web page does all of the above in one place: https://claude.ai/artifact/TLkwPkMnVKcrzEPzrPSCp5
+
+- It shows a dated high-resolution image of each point, from the Esri Wayback release whose capture date is closest to Jan 2025. The capture date is printed under the image, in orange when it's more than 1.5 years off.
+- Keys: `1` forest, `2` cocoa, `3` other, `4` unsure, `H`/`M`/`L` confidence, `←`/`→` step, `Z` zoom, `B` hide the box, `N` notes.
+- Labels save to the page's shared store. Claude pulls them into the per-labeller CSVs.
+
+Page source: `labels/labeller/index.html`. Chips: `scripts/fetch_label_chips.py` (git-ignored output in `data/chips/`).

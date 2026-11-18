@@ -1,0 +1,376 @@
+<title>Cocoa Border Labeller</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one-screen labelling desk. Image left (as large as fits), decision panel right; stacks on phones. */
+:root {
+  --bg: #f3f4f1;
+  --panel: #ffffff;
+  --line: #d9ddd5;
+  --fg: #1d221d;
+  --muted: #5e6a5f;
+  --accent: #2f5d50;
+  --forest: #23663f;
+  --cocoa: #8a5a2b;
+  --other: #4c6a8c;
+  --unsure: #7a7f7a;
+  --ring: #e8b33a;
+  --sans: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #131714; --panel: #1b201c; --line: #2d352f; --fg: #e5ebe4; --muted: #9aa69b;
+    --accent: #7fb8a4; --forest: #4fae73; --cocoa: #c98f57; --other: #84a6cc; --unsure: #9aa09a; --ring: #f0c45a;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #131714; --panel: #1b201c; --line: #2d352f; --fg: #e5ebe4; --muted: #9aa69b;
+  --accent: #7fb8a4; --forest: #4fae73; --cocoa: #c98f57; --other: #84a6cc; --unsure: #9aa09a; --ring: #f0c45a;
+  color-scheme: dark;
+}
+html, body { height: 100%; }
+body {
+  background: var(--bg); color: var(--fg); font-family: var(--sans); font-size: 15px; line-height: 1.45;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 14px;
+}
+* { box-sizing: border-box; }
+button, input, select { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--ring); outline-offset: 2px; }
+
+.top { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 18px; margin-bottom: 12px; }
+.top h1 { font-size: 17px; font-weight: 600; margin: 0; letter-spacing: .01em; }
+.top .sub { color: var(--muted); font-size: 13px; }
+.who { display: flex; align-items: center; gap: 8px; margin-left: auto; }
+.who label { font-size: 13px; color: var(--muted); }
+select, input[type=text] { background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 6px 8px; }
+.progress { display: flex; gap: 14px; flex-wrap: wrap; font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.bar { width: 110px; height: 6px; background: var(--line); border-radius: 3px; overflow: hidden; display: inline-block; vertical-align: middle; margin-left: 6px; }
+.bar > i { display: block; height: 100%; background: var(--accent); width: 0; }
+
+.desk { display: grid; grid-template-columns: minmax(0, 1fr) 320px; gap: 16px; align-items: start; }
+@media (max-width: 820px) { .desk { grid-template-columns: minmax(0, 1fr); } }
+
+.viewer { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 10px; min-width: 0; }
+.frame { position: relative; width: 100%; max-width: min(100%, calc(100vh - 210px)); aspect-ratio: 1; margin: 0 auto; background: var(--line); border-radius: 6px; overflow: hidden; }
+.frame img { width: 100%; height: 100%; object-fit: cover; display: block; transform-origin: center; transition: transform .15s ease; }
+.frame.zoomed img { transform: scale(2); }
+.box { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); border: 2px solid var(--ring); box-shadow: 0 0 0 1px rgba(0,0,0,.45); pointer-events: none; }
+.frame.hidebox .box, .frame.hidebox .cross { display: none; }
+.cross { position: absolute; left: 50%; top: 50%; width: 9px; height: 9px; transform: translate(-50%, -50%); pointer-events: none; }
+.cross::before, .cross::after { content: ""; position: absolute; background: var(--ring); }
+.cross::before { left: 4px; top: 0; width: 1px; height: 9px; } .cross::after { top: 4px; left: 0; height: 1px; width: 9px; }
+.scale { position: absolute; left: 10px; bottom: 10px; color: #fff; font: 500 11px var(--mono); text-shadow: 0 1px 2px #000; }
+.scale i { display: block; width: 100%; height: 4px; border: 2px solid #fff; border-top: 0; margin-top: 2px; box-shadow: 0 1px 2px rgba(0,0,0,.6); }
+.empty { position: absolute; inset: 0; display: grid; place-items: center; color: var(--muted); text-align: center; padding: 20px; }
+.meta { display: flex; flex-wrap: wrap; gap: 6px 14px; margin-top: 8px; font: 12px var(--mono); color: var(--muted); }
+.meta b { color: var(--fg); font-weight: 500; }
+.stale { color: var(--cocoa); }
+.tools { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; }
+.tools a, .tools button { font-size: 13px; color: var(--accent); background: none; border: 1px solid var(--line); border-radius: 6px; padding: 4px 9px; text-decoration: none; cursor: pointer; }
+
+.panel { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 14px; display: grid; gap: 14px; }
+.pid { display: flex; justify-content: space-between; align-items: baseline; }
+.pid strong { font: 600 20px var(--mono); }
+.pid span { font-size: 12px; color: var(--muted); }
+.labels { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.lab { display: flex; align-items: center; gap: 8px; border: 1.5px solid var(--line); background: var(--bg); border-radius: 8px; padding: 10px; cursor: pointer; text-align: left; }
+.lab kbd { font: 500 11px var(--mono); border: 1px solid var(--line); border-radius: 4px; padding: 1px 5px; color: var(--muted); background: var(--panel); }
+.lab .sw { width: 12px; height: 12px; border-radius: 3px; flex: none; }
+.lab[data-v=forest] .sw { background: var(--forest); } .lab[data-v=cocoa] .sw { background: var(--cocoa); }
+.lab[data-v=other] .sw { background: var(--other); } .lab[data-v=unsure] .sw { background: var(--unsure); }
+.lab[aria-pressed=true] { border-color: var(--fg); background: var(--panel); font-weight: 600; }
+.lab span.t { flex: 1; }
+.seg { display: flex; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
+.seg button { flex: 1; background: var(--bg); border: 0; padding: 7px 0; cursor: pointer; font-size: 13px; }
+.seg button + button { border-left: 1px solid var(--line); }
+.seg button[aria-pressed=true] { background: var(--accent); color: var(--panel); font-weight: 600; }
+.field { display: grid; gap: 5px; } .field > label { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; }
+.nav { display: flex; gap: 8px; }
+.nav button { flex: 1; border: 1px solid var(--line); background: var(--bg); border-radius: 8px; padding: 9px; cursor: pointer; }
+.nav button.primary { background: var(--accent); color: var(--panel); border-color: var(--accent); font-weight: 600; }
+.status { font-size: 12px; color: var(--muted); min-height: 1.4em; }
+.status.err { color: var(--cocoa); }
+.others { font-size: 12px; color: var(--muted); }
+.keys { font-size: 12px; color: var(--muted); line-height: 1.6; }
+.keys kbd { font: 11px var(--mono); border: 1px solid var(--line); border-radius: 3px; padding: 0 4px; }
+
+.strip { margin-top: 14px; background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; }
+.strip .head { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; margin-bottom: 8px; font-size: 13px; }
+.strip .head .seg { width: auto; } .strip .head .seg button { padding: 4px 10px; }
+.dots { display: flex; flex-wrap: wrap; gap: 3px; max-height: 120px; overflow-y: auto; }
+.dot { width: 14px; height: 14px; border-radius: 3px; border: 1px solid var(--line); background: var(--bg); cursor: pointer; padding: 0; }
+.dot[data-v=forest] { background: var(--forest); border-color: var(--forest); } .dot[data-v=cocoa] { background: var(--cocoa); border-color: var(--cocoa); }
+.dot[data-v=other] { background: var(--other); border-color: var(--other); } .dot[data-v=unsure] { background: var(--unsure); border-color: var(--unsure); }
+.dot.cur { outline: 2px solid var(--ring); outline-offset: 1px; }
+
+details.guide { margin-top: 14px; background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 10px 14px; }
+details.guide summary { cursor: pointer; font-weight: 600; }
+.guide dl { display: grid; grid-template-columns: max-content minmax(0, 1fr); gap: 6px 14px; margin: 10px 0 4px; max-width: 75ch; }
+.guide dt { font-weight: 600; } .guide p { max-width: 75ch; color: var(--muted); margin: 6px 0; }
+.attr { margin-top: 10px; font-size: 11px; color: var(--muted); }
+@media (prefers-reduced-motion: reduce) { .frame img { transition: none; } }
+</style>
+
+<header class="top">
+  <div>
+    <h1>Cocoa–forest border labels</h1>
+    <div class="sub">Ghana cocoa belt · CSE 580 · label what is on the ground in 2024–25</div>
+  </div>
+  <div class="progress" id="progress"></div>
+  <div class="who">
+    <label for="who">Labelling as</label>
+    <select id="who">
+      <option value="">Choose…</option>
+      <option value="ben">Ben</option>
+      <option value="kyvalya">Kyvalya</option>
+    </select>
+  </div>
+</header>
+
+<main class="desk">
+  <section class="viewer" aria-label="Imagery">
+    <div class="frame" id="frame">
+      <img id="chip" alt="High-resolution satellite image centred on the point">
+      <div class="box" id="box" title="About 30 m: the area to judge"></div>
+      <div class="cross"></div>
+      <div class="scale" id="scale"></div>
+      <div class="empty" id="empty">Loading points…</div>
+    </div>
+    <div class="meta" id="meta"></div>
+    <div class="tools">
+      <button id="zoomBtn" type="button">Zoom 2× <kbd>Z</kbd></button>
+      <button id="boxBtn" type="button">Hide box <kbd>B</kbd></button>
+      <a id="gmaps" target="_blank" rel="noopener">Google Maps ↗</a>
+      <a id="gearth" target="_blank" rel="noopener">Google Earth ↗</a>
+    </div>
+  </section>
+
+  <aside class="panel" aria-label="Label">
+    <div class="pid"><strong id="pid">—</strong><span id="pos"></span></div>
+    <div class="labels" role="group" aria-label="Class">
+      <button class="lab" type="button" data-v="forest"><i class="sw"></i><span class="t">Forest</span><kbd>1</kbd></button>
+      <button class="lab" type="button" data-v="cocoa"><i class="sw"></i><span class="t">Cocoa</span><kbd>2</kbd></button>
+      <button class="lab" type="button" data-v="other"><i class="sw"></i><span class="t">Other</span><kbd>3</kbd></button>
+      <button class="lab" type="button" data-v="unsure"><i class="sw"></i><span class="t">Unsure</span><kbd>4</kbd></button>
+    </div>
+    <div class="field">
+      <label>Confidence</label>
+      <div class="seg" id="conf" role="group" aria-label="Confidence">
+        <button type="button" data-c="high">High <kbd>H</kbd></button>
+        <button type="button" data-c="med">Med <kbd>M</kbd></button>
+        <button type="button" data-c="low">Low <kbd>L</kbd></button>
+      </div>
+    </div>
+    <div class="field">
+      <label for="notes">Notes (optional)</label>
+      <input type="text" id="notes" placeholder="edge of farm, cloud, young cocoa…" autocomplete="off">
+    </div>
+    <div class="nav">
+      <button type="button" id="prev">← Back</button>
+      <button type="button" id="next" class="primary">Next →</button>
+    </div>
+    <div class="status" id="status"></div>
+    <div class="others" id="others"></div>
+    <div class="keys">Press a number to label and move on. <kbd>←</kbd> <kbd>→</kbd> step without labelling. Confidence stays as set until you change it.</div>
+  </aside>
+</main>
+
+<section class="strip" aria-label="All points">
+  <div class="head">
+    <strong>Points</strong>
+    <div class="seg" id="filter" role="group" aria-label="Show">
+      <button type="button" data-f="mine">Mine</button>
+      <button type="button" data-f="todo">My unlabelled</button>
+      <button type="button" data-f="all">All 600</button>
+    </div>
+    <span class="sub" id="stripCount"></span>
+  </div>
+  <div class="dots" id="dots"></div>
+</section>
+
+<details class="guide">
+  <summary>What each label means</summary>
+  <dl>
+    <dt>Forest</dt><dd>Natural or degraded forest. Irregular crowns of mixed sizes, uneven texture, no rows or regular clearings. Under the EUDR (FAO) definition, degraded or open forest still counts as forest.</dd>
+    <dt>Cocoa</dt><dd>A low, even, fine-textured canopy, often with scattered tall shade trees standing above it. Small clearings, paths and huts nearby. Shaded cocoa can look like thin forest: look for the uniform layer under the big trees.</dd>
+    <dt>Other</dt><dd>Oil palm (star-shaped crowns, often in rows), rubber (straight rows, even crowns), food crops, fallow and bush, bare ground, mining pits, buildings, water.</dd>
+    <dt>Unsure</dt><dd>You can't tell. Use it freely: a wrong label hurts the model more than a missing one.</dd>
+  </dl>
+  <p>Judge the ~30 m box in the centre. If it straddles a boundary, pick the majority and add a note. Check the capture date under the image: if it is years away from 2024–25 and the place looks like it may have changed, say so in a note or use Google Earth's historical imagery.</p>
+</details>
+
+<p class="attr">Imagery: Esri World Imagery Wayback (Maxar, Vantor and others), shown for research labelling. Points: cocoa-vs-forest border candidates (CERSGIS cocoa landscape, 2024–25).</p>
+
+<script>
+(() => {
+  const $ = (id) => document.getElementById(id);
+  const TARGET = "2025-01-01";
+  let points = [], idx = 0, who = "", filter = "mine";
+  let labels = {};            // `${id}--${who}` -> body
+  let conf = "high", db = null, canWrite = true, uid = null, zoom = false, hidebox = false;
+
+  const store = {
+    get(k) { try { return localStorage.getItem(k); } catch { return null; } },
+    set(k, v) { try { localStorage.setItem(k, v); } catch {} },
+  };
+
+  function key(id, w = who) { return `${id}--${w}`; }
+  function visible() {
+    if (filter === "all" || !who) return points;
+    const mine = points.filter(p => p.labeler === who);
+    return filter === "todo" ? mine.filter(p => !labels[key(p.id)]) : mine;
+  }
+  function setStatus(msg, err = false) { const s = $("status"); s.textContent = msg; s.className = "status" + (err ? " err" : ""); }
+
+  function render() {
+    const list = visible();
+    if (!points.length) return;
+    if (!list.length) {
+      $("empty").hidden = false; $("chip").hidden = true;
+      $("empty").textContent = filter === "todo" ? "All your points are labelled. Nice work." : "Choose who is labelling (top right).";
+      $("pid").textContent = "—"; $("pos").textContent = ""; renderStrip(); renderProgress(); return;
+    }
+    idx = Math.max(0, Math.min(idx, list.length - 1));
+    const p = list[idx];
+    $("empty").hidden = true; $("chip").hidden = false;
+    $("chip").removeAttribute("src");
+    chipFor(p).then(src => { if (visible()[idx]?.id === p.id && src) $("chip").src = src; });
+    const boxPx = 30 / p.m_per_px, pct = 100 * boxPx / p.chip_px;
+    $("box").style.width = $("box").style.height = pct + "%";
+    const barM = 100, barPct = 100 * (barM / p.m_per_px) / p.chip_px * (zoom ? 2 : 1);
+    $("scale").innerHTML = `${barM} m<i></i>`;
+    $("scale").style.width = barPct + "%";
+    const gapYears = p.gap_days != null ? (p.gap_days / 365).toFixed(1) : "?";
+    const stale = p.gap_days > 540;
+    $("meta").innerHTML =
+      `<span>captured <b class="${stale ? "stale" : ""}">${p.capture_date || "unknown"}</b>${stale ? ` <span class="stale">(${gapYears} y from 2024–25)</span>` : ""}</span>` +
+      `<span>${p.source || ""} · ${p.res_m ?? "?"} m</span>` +
+      `<span>${p.lat.toFixed(5)}, ${p.lon.toFixed(5)}</span>`;
+    $("gmaps").href = `https://www.google.com/maps/@${p.lat},${p.lon},350m/data=!3m1!1e3`;
+    $("gearth").href = `https://earth.google.com/web/@${p.lat},${p.lon},150a,600d,35y,0h,0t,0r`;
+    $("pid").textContent = p.id;
+    $("pos").textContent = `${idx + 1} of ${list.length}` + (p.labeler ? ` · assigned ${p.labeler}` : "");
+    const mine = labels[key(p.id)];
+    document.querySelectorAll(".lab").forEach(b => b.setAttribute("aria-pressed", String(mine?.label === b.dataset.v)));
+    if (mine?.confidence) conf = mine.confidence;
+    document.querySelectorAll("#conf button").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.c === conf)));
+    if (document.activeElement !== $("notes")) $("notes").value = mine?.notes || "";
+    const other = Object.values(labels).filter(l => l.id === p.id && l.who !== who);
+    $("others").textContent = other.length ? "Also labelled by " + other.map(o => `${o.who}: ${o.label}`).join(", ") : "";
+    $("frame").classList.toggle("zoomed", zoom); $("frame").classList.toggle("hidebox", hidebox);
+    $("zoomBtn").firstChild.textContent = zoom ? "Zoom 1× " : "Zoom 2× ";
+    $("boxBtn").firstChild.textContent = hidebox ? "Show box " : "Hide box ";
+    renderStrip(); renderProgress();
+    // warm the next chip's bundle
+    const n = list[idx + 1]; if (n) chipFor(n);
+  }
+
+  // chips ship in bundles of 100 (bundles/chips_<n>.json: {id: dataURI}); load each bundle once
+  const bundles = {};
+  function chipFor(p) {
+    const b = p.bundle ?? 0;
+    if (!bundles[b]) bundles[b] = fetch(`bundles/chips_${b}.json`).then(r => r.json()).catch(() => { delete bundles[b]; return {}; });
+    return bundles[b].then(m => m[p.id]);
+  }
+
+  function renderStrip() {
+    const list = visible(), cur = list[idx]?.id;
+    const frag = document.createDocumentFragment();
+    list.forEach((p, i) => {
+      const b = document.createElement("button");
+      b.className = "dot" + (p.id === cur ? " cur" : ""); b.type = "button";
+      const l = labels[key(p.id)] || (filter === "all" ? labels[key(p.id, p.labeler)] : null);
+      if (l) b.dataset.v = l.label;
+      b.title = p.id + (l ? " · " + l.label : "");
+      b.addEventListener("click", () => { idx = i; render(); });
+      frag.appendChild(b);
+    });
+    $("dots").replaceChildren(frag);
+    $("stripCount").textContent = `${list.length} shown`;
+    document.querySelectorAll("#filter button").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.f === filter)));
+  }
+
+  function renderProgress() {
+    const out = [];
+    for (const w of ["ben", "kyvalya"]) {
+      const total = points.filter(p => p.labeler === w).length;
+      const done = points.filter(p => p.labeler === w && labels[key(p.id, w)]).length;
+      out.push(`<span>${w[0].toUpperCase() + w.slice(1)} ${done}/${total}<span class="bar"><i style="width:${total ? 100 * done / total : 0}%"></i></span></span>`);
+    }
+    $("progress").innerHTML = out.join("");
+  }
+
+  async function save(label) {
+    const list = visible(); const p = list[idx];
+    if (!p) return;
+    if (!who) { setStatus("Choose who is labelling first (top right).", true); $("who").focus(); return; }
+    const body = { id: p.id, who, label, confidence: conf, notes: $("notes").value.trim(),
+                   capture_date: p.capture_date || "", uid: uid || "", t: new Date().toISOString() };
+    labels[key(p.id)] = body;            // optimistic
+    const wasTodo = filter === "todo";
+    if (!wasTodo) idx++;                  // in "todo" the item drops out of the list, so idx already points to the next
+    $("notes").value = "";
+    render();
+    if (!db || !canWrite) { setStatus("Not saved: this view can't write labels. Ask Ben for edit access.", true); return; }
+    try { await db.collection("labels").doc(key(p.id)).set(body); setStatus(`Saved ${p.id} as ${label}.`); }
+    catch (e) {
+      if (e?.code === "invalid_argument") { canWrite = false; setStatus("You have view-only access, so labels can't be saved. Ask Ben for Contributor access.", true); }
+      else setStatus(`Couldn't save ${p.id} (${e?.code || "error"}). It will stay shown here; try labelling it again.`, true);
+    }
+  }
+
+  // controls
+  document.querySelectorAll(".lab").forEach(b => b.addEventListener("click", () => save(b.dataset.v)));
+  document.querySelectorAll("#conf button").forEach(b => b.addEventListener("click", () => { conf = b.dataset.c; render(); }));
+  document.querySelectorAll("#filter button").forEach(b => b.addEventListener("click", () => { filter = b.dataset.f; idx = 0; store.set("cvf-filter", filter); render(); }));
+  $("prev").addEventListener("click", () => { idx--; render(); });
+  $("next").addEventListener("click", () => { idx++; render(); });
+  $("zoomBtn").addEventListener("click", () => { zoom = !zoom; render(); });
+  $("boxBtn").addEventListener("click", () => { hidebox = !hidebox; render(); });
+  $("who").addEventListener("change", () => { who = $("who").value; store.set("cvf-who", who); idx = 0; render(); });
+  document.addEventListener("keydown", (e) => {
+    if (e.target === $("notes")) { if (e.key === "Enter" || e.key === "Escape") $("notes").blur(); return; }
+    if (e.target.tagName === "SELECT" || e.metaKey || e.ctrlKey || e.altKey) return;
+    const m = { "1": "forest", "2": "cocoa", "3": "other", "4": "unsure" }[e.key];
+    if (m) { e.preventDefault(); save(m); return; }
+    const c = { h: "high", m: "med", l: "low" }[e.key.toLowerCase()];
+    if (c) { conf = c; render(); return; }
+    if (e.key === "ArrowRight") { idx++; render(); }
+    else if (e.key === "ArrowLeft") { idx--; render(); }
+    else if (e.key.toLowerCase() === "z") { zoom = !zoom; render(); }
+    else if (e.key.toLowerCase() === "b") { hidebox = !hidebox; render(); }
+    else if (e.key.toLowerCase() === "n") { e.preventDefault(); $("notes").focus(); }
+  });
+
+  // restore per-viewer conveniences
+  who = store.get("cvf-who") || ""; $("who").value = who;
+  filter = store.get("cvf-filter") || "todo";
+
+  fetch("points.json").then(r => r.json()).then(js => {
+    points = js.filter(p => !p.error);
+    render();
+  }).catch(() => { $("empty").textContent = "Couldn't load the point list. Reload the page."; });
+
+  (async () => {
+    const c = window.claude;
+    if (!c?.use) { setStatus("Saving isn't available in this view. Open the page on claude.ai.", true); return; }
+    const timer = setTimeout(() => setStatus("Still connecting to the label store…"), 10000);
+    db = await c.use("db");
+    const user = await c.use("user");
+    if (user) { try { uid = await user.id(); } catch {} const w = await user.can?.("data.write"); if (w === false) { canWrite = false; setStatus("View-only: ask Ben for Contributor access to save labels.", true); } }
+    if (!db) { clearTimeout(timer); setStatus("Sign in to claude.ai to save labels.", true); return; }
+    db.collection("labels").onSnapshot((snap) => {
+      clearTimeout(timer);
+      const next = {};
+      snap.docs.forEach(d => { const b = d.data(); if (b?.id && b?.who) next[key(b.id, b.who)] = b; });
+      labels = next; render();
+      if (!$("status").textContent || $("status").textContent.startsWith("Still")) setStatus(`${snap.size} labels saved so far.`);
+    }, (e) => { clearTimeout(timer); setStatus(`Label store error (${e.code}). Reload the page.`, true); });
+  })();
+})();
+</script>
