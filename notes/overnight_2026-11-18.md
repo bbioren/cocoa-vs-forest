@@ -30,3 +30,10 @@ deforestation. **Treat `converted` as unreliable; report it only as a small, cav
 ## Prediction plan once a model finishes (scripts/studio_predict.py)
 - held-out 2024-25: data/test2024/holdout2024.csv (2,223 pts, <=400 per source, per-point year windows)
 - 2020: data/test2020/test2020.csv (1,764 pts), window 2020-01-01..2020-12-31
+
+## Baseline: JRC GFC2020 V4 on the 2020 test set (scripts/score.py, results/scores.csv)
+forest vs not-forest acc 0.907, forest recall 0.711, forest precision 0.998.
+Per slice: cocoa 0.999, other 1.000, forest_reserve 1.000, forest_degraded 0.008, converted 0.000.
+Caveat: the cocoa score is inflated by circularity (GFC2020 masks cocoa with the FDaP model trained partly on
+CERSGIS), and the reserve-forest points were selected with GFC2020 == 1. The informative number is
+forest_degraded: GFC2020 misses almost all field-surveyed open/degraded forest.
