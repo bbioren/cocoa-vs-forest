@@ -131,13 +131,20 @@ def main():
     is_test = allg["block"].isin(test_blocks)
 
     OUT.mkdir(parents=True, exist_ok=True)
-    cols = ["label", "start_time", "end_time", "source", "block", "geometry"]
+    cols = ["label", "start_time", "end_time", "source", "geometry"]
     train = allg.loc[~is_test, cols].to_crs(4326)
     test = allg.loc[is_test, cols].to_crs(4326)
-    for name, g in [("train_upload", train), ("test_holdout", test)]:
+    # Compact JSON, ~1 m coordinate precision. The upload drops `source` (Studio ignores it, and the
+    # browser upload path is limited to 10 MB); the hold-out keeps it for per-source scoring.
+    for name, g, keep in [("train_upload", train, ["label", "start_time", "end_time"]),
+                          ("test_holdout", test, ["label", "start_time", "end_time", "source"])]:
         p = OUT / f"{name}.geojson"
-        p.unlink(missing_ok=True)
-        g.to_file(p, driver="GeoJSON", COORDINATE_PRECISION=6)
+        d = json.loads(g[keep + ["geometry"]].to_json(drop_id=True))
+        def rnd(c):
+            return [rnd(x) for x in c] if isinstance(c[0], list) else [round(c[0], 5), round(c[1], 5)]
+        for f in d["features"]:
+            f["geometry"]["coordinates"] = rnd(f["geometry"]["coordinates"])
+        p.write_text(json.dumps(d, separators=(",", ":")))
 
     summary = {
         "train": train.groupby(["label", "source"]).size().to_dict(),

@@ -21,7 +21,13 @@ The headline claim to test is whether OlmoEarth beats the EU's GFC2020 map at se
 - [x] Forest labels: 6,255 automatic reserve-interior points + 1,606 CERSGIS degraded-forest points
 - [x] Other labels: 18,122 CERSGIS points (oil palm, rubber, mining)
 - [ ] Border hand labels: 0 of 600 done
-- [ ] Imagery, training, evaluation: not started
+- [x] Studio project `cocoa-vs-forest` created; 39,134 training labels uploaded (Studio counts 39,066)
+- [x] **v0 training started 11/17**: "cocoa-vs-forest 160m Jan-Dec". Settings:
+  - OlmoEarth Base, Sentinel-2 only, per-pixel segmentation
+  - 160 m window, patch size 2, Jan–Dec annual monthly stack
+  - Studio spatial split 85/15; lr 1e-4, encoder unfrozen
+  - Cost ~31 of 500 compute units/month
+- [ ] Evaluation on our held-out blocks: not started
 
 ## Timeline
 
