@@ -80,3 +80,17 @@ n=1,764. 3-class acc 0.823, macro F1 0.810. Forest vs not-forest: acc 0.836, rec
 Per slice v0 / GFC2020: cocoa 0.884 / 0.999*, reserve 1.0 / 1.0, degraded 0.449 / 0.008, converted 0.459 / 0.0,
 other 0.675 / 1.0. Main v0 errors: other -> forest (109, oil palm/rubber), cocoa -> forest (90).
 Takeaway: v0 finds far more of the forest GFC2020 misses, but over-calls forest on tree crops. holdout2024 still running.
+
+## v1: class-balanced labels (~19:50 UTC)
+Why: v0 training area was ~62% cocoa / 26% other / 12% forest, with degraded forest only ~2%. On 2020 the model
+calls degraded forest cocoa and tree crops forest.
+`export_studio.py --balanced`: each cocoa farm clipped to a 30 m square around an interior point (all farms kept,
+area capped), degraded-forest points as 50 m squares, half the galamsey dropped. Area share 35% cocoa / 28.5% forest /
+36.5% other. Same spatial hold-out blocks (block assigned on the unclipped farm); 0 test2020 / holdout2024 points inside
+any v1 training polygon.
+Uploaded as dataset `train_v1_balanced`, field `label_v1` (not merged with `label`), model trained on that dataset only.
+Model b77572f6 "cocoa-vs-forest v1 BALANCED 160m Jan-Dec": Base, spatial 85/15, Jan-Dec, 160 m. ~30 units.
+
+ACCIDENT: at 17:14 the meter-check walkthrough clicked through the wizard's last step, where "Next" becomes
+"Build Model", and built 6e0cea62 (Tiny, 75/25, v0 labels; same name as v0). It cannot be renamed; kept as a
+Tiny-vs-Base ablation rather than deleted. Meter: 136/500 before v1, ~166 after.
