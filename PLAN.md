@@ -1,6 +1,6 @@
 # Project plan
 
-_Last updated 2026-11-17. Paper and poster due the week of Dec 7._
+_Last updated 2026-11-17 (switched training to OlmoEarth Studio; no Klone needed)._ Paper and poster due the week of Dec 7._
 
 ## Goal
 
@@ -29,9 +29,9 @@ The headline claim to test is whether OlmoEarth beats the EU's GFC2020 map at se
 
 | # | Task | Owner | Done when |
 |---|---|---|---|
-| 1 | Compute: Klone GPU allocation (or Ai2 compute). Check `ssh klone` + `sinfo`. | Ben | Can run a GPU job |
+| 1 | ~~Compute~~ **Use OlmoEarth Studio** (access confirmed 11/17: builder role, UW CSE org). Sign in, create project `cocoa-vs-forest`, check split control / 2020 inference / limits | Ben | Project exists |
 | 2 | Email OlmoEarth team the open questions below | Ben | Sent |
-| 3 | **Training-set builder** `scripts/build_windows.py`: labels → rslearn windows → 2024–25 imagery | Ben (+Claude) | `data/rslearn_dataset/` materialised |
+| 3 | ~~rslearn builder~~ **Studio export** `scripts/export_studio.py` ✅ → upload `data/studio/train_upload.geojson` (39k labels; 15% of 10 km blocks held out in `test_holdout.geojson`) | Ben (+Claude) | Uploaded to Studio |
 | 4 | **Frozen-embedding baseline**: OlmoEarth features + logistic regression / kNN | Ben (+Claude) | Per-class P/R/F1 on val |
 | 5 | **Label border points**, 300 each (`labels/README.md`) | Ben, Kyvalya | 600 labelled, committed |
 | 6 | Draft paper skeleton: intro, related work, data sections (reuse the proposal) | Kyvalya | Overleaf draft exists |
@@ -40,7 +40,7 @@ The headline claim to test is whether OlmoEarth beats the EU's GFC2020 map at se
 
 | # | Task | Owner | Done when |
 |---|---|---|---|
-| 7 | Fine-tune v0 (no border labels), then v1 (with border labels) | Ben (+Claude) | Val metrics + checkpoint |
+| 7 | Fine-tune in Studio: v0 (no border labels), then v1 (with border labels). Score predictions on our held-out blocks | Ben (+Claude) | Studio metrics + our held-out metrics |
 | 8 | Ablations: S2 only vs S2+S1; patch size 1 vs 2 vs 4 | Ben (+Claude) | Results table |
 | 9 | **Build 2020 test set**: ~300 points labelled on 2020 imagery | Kyvalya (sampling script: Ben) | 300 labelled, 60 double-labelled |
 | 10 | 2020 inference over the cocoa belt (or at test points if compute is tight) | Ben (+Claude) | 2020 prediction map |
@@ -123,7 +123,7 @@ Pulled from Planetary Computer through rslearn.
 
 | Risk | Mitigation |
 |---|---|
-| No GPU / Klone access slow | Frozen-embedding baseline runs on CPU. Ask Ai2 about compute or OlmoEarth Studio. Use Nano/Tiny if needed. |
+| Studio can't control split / limits / 2020 inference | We hold out our own test blocks and score exported predictions ourselves; fall back to rslearn on Klone if Studio blocks us |
 | Imagery download slow or cloudy (Ghana is very cloudy) | Monthly mosaics; S1 as fallback; start materialising early (task 3) |
 | Model learns "reserve = forest" shortcut | Border hand labels; report border-point accuracy separately |
 | Hand labelling slips | v0 trains without border labels. The 2020 test set is protected (see cut list). |

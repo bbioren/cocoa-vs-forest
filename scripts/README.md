@@ -19,6 +19,7 @@ uv run python scripts/clean_cersgis.py          # -> data/processed/cersgis_clea
 uv run python scripts/plot_cersgis.py           # -> figures/01-05
 uv run python scripts/make_forest_labels.py     # -> data/processed/forest_reserve_points.gpkg, figures/06
 uv run python scripts/make_border_candidates.py # -> labels/border_candidates.* (only re-run to regenerate; it overwrites!)
+uv run python scripts/export_studio.py          # -> data/studio/train_upload.geojson + test_holdout.geojson (re-run after hand labelling)
 ```
 
 The GFC2020 V4 map is read remotely from the JRC's 38 GB COG, so it isn't downloaded. Ghana's boundary (geoBoundaries) downloads automatically.
