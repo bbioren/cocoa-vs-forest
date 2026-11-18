@@ -94,8 +94,15 @@ def main():
     parts = [cocoa, oth, fa]
 
     # border hand labels, if any are done
-    if BORDER.exists():
-        b = pd.read_csv(BORDER)
+    # each labeller fills their own labels/border_<name>.csv (avoids merge conflicts)
+    sheets = sorted(BORDER.parent.glob("border_*.csv"))
+    sheets = [f for f in sheets if f.name != "border_candidates.csv"]
+    if sheets:
+        b = pd.concat([pd.read_csv(f, dtype=str) for f in sheets], ignore_index=True)
+        b[["lat", "lon"]] = b[["lat", "lon"]].astype(float)
+        # points labelled by both people with different answers are dropped
+        n_lab = b[b["label"].notna()].groupby("cand_id")["label"].nunique()
+        b = b[~b["cand_id"].isin(n_lab[n_lab > 1].index)].drop_duplicates("cand_id")
         b = b[b["label"].isin(["cocoa", "forest", "other"]) & b["confidence"].isin(["high", "med"])]
         if len(b):
             bg = gpd.GeoDataFrame(b, geometry=gpd.points_from_xy(b.lon, b.lat), crs=4326).to_crs(UTM)

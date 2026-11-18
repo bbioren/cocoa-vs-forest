@@ -1,0 +1,1506 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Folder><name>border_ben</name>
+  <Placemark id="border_ben.1">
+	<name>B0000</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.696201,6.461197</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.2">
+	<name>B0002</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-1.894257,7.055997</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.3">
+	<name>B0004</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.543346,6.063534</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.4">
+	<name>B0006</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.551434,6.066215</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.5">
+	<name>B0008</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-1.809657,5.410412</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.6">
+	<name>B0010</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.556743,6.116563</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.7">
+	<name>B0012</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.548007,6.070864</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.8">
+	<name>B0014</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.50161,6.286063</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.9">
+	<name>B0016</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.06525,5.719914</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.10">
+	<name>B0018</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.333723,6.27328</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.11">
+	<name>B0020</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.440036,6.338293</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.12">
+	<name>B0022</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.369444,5.896477</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.13">
+	<name>B0024</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.52432,6.307878</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.14">
+	<name>B0026</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.338118,5.914438</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.15">
+	<name>B0028</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-1.823417,5.635171</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.16">
+	<name>B0030</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-1.885343,5.585291</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.17">
+	<name>B0032</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.63352,6.805458</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.18">
+	<name>B0034</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.28161,5.892864</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.19">
+	<name>B0036</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.681047,6.859411</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.20">
+	<name>B0038</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-1.893867,5.349945</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.21">
+	<name>B0040</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.057302,5.780713</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.22">
+	<name>B0042</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.409765,7.011375</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.23">
+	<name>B0044</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-1.385498,5.548122</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.24">
+	<name>B0046</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-1.945959,5.15228</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.25">
+	<name>B0048</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.461862,6.960107</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.26">
+	<name>B0050</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.31915,5.995523</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.27">
+	<name>B0052</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.328134,6.495518</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.28">
+	<name>B0054</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.351727,6.441547</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.29">
+	<name>B0056</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.316178,6.017667</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.30">
+	<name>B0058</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.533182,6.07864</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.31">
+	<name>B0060</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.188996,5.309214</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.32">
+	<name>B0062</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-1.255163,5.384108</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.33">
+	<name>B0064</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.504149,6.225688</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.34">
+	<name>B0066</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-1.914433,5.666998</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.35">
+	<name>B0068</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.102862,7.019584</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.36">
+	<name>B0070</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-1.224748,5.486743</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.37">
+	<name>B0072</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.54132,6.217691</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.38">
+	<name>B0074</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-1.162059,5.434553</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.39">
+	<name>B0076</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.577724,6.119341</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.40">
+	<name>B0078</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.178721,6.891006</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.41">
+	<name>B0080</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.18815,5.322279</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.42">
+	<name>B0082</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.668977,6.189112</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.43">
+	<name>B0084</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.831627,6.229656</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.44">
+	<name>B0086</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-1.936292,5.241968</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.45">
+	<name>B0088</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.064736,5.724115</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.46">
+	<name>B0090</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-1.250313,5.605133</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.47">
+	<name>B0092</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.044707,5.76367</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.48">
+	<name>B0094</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.543013,6.126596</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.49">
+	<name>B0096</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.272497,6.562655</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.50">
+	<name>B0098</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-1.903263,5.404056</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.51">
+	<name>B0100</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-1.902429,5.403991</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.52">
+	<name>B0102</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-1.208858,5.423442</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.53">
+	<name>B0104</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-1.897956,5.562261</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.54">
+	<name>B0106</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.868479,6.323082</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.55">
+	<name>B0108</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-3.125472,6.586538</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.56">
+	<name>B0110</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-3.123739,6.587069</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.57">
+	<name>B0112</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-1.844181,5.678269</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.58">
+	<name>B0114</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.078113,5.118429</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.59">
+	<name>B0116</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.271011,6.299672</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.60">
+	<name>B0118</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.557031,6.061993</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.61">
+	<name>B0120</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.510625,6.079063</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.62">
+	<name>B0122</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-1.179066,5.399132</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.63">
+	<name>B0124</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-1.127687,5.637208</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.64">
+	<name>B0126</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.432756,7.051462</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.65">
+	<name>B0128</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.369732,6.45672</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.66">
+	<name>B0130</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.122051,5.878</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.67">
+	<name>B0132</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.431505,6.341171</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.68">
+	<name>B0134</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.553396,6.125119</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.69">
+	<name>B0136</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.671372,6.322703</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.70">
+	<name>B0138</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.644086,6.966156</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.71">
+	<name>B0140</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.303464,6.3003</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.72">
+	<name>B0142</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.56117,6.076509</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.73">
+	<name>B0144</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.528549,6.226113</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.74">
+	<name>B0146</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.539584,6.061244</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.75">
+	<name>B0148</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.431495,7.015314</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.76">
+	<name>B0150</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-1.325023,5.646746</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.77">
+	<name>B0152</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.165553,5.835517</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.78">
+	<name>B0154</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-1.836584,5.636058</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.79">
+	<name>B0156</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.578464,6.106807</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.80">
+	<name>B0158</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-1.951121,5.165214</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.81">
+	<name>B0160</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.548838,6.105745</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.82">
+	<name>B0162</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-1.348389,5.614951</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.83">
+	<name>B0164</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.495099,6.308151</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.84">
+	<name>B0166</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.45716,6.951325</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.85">
+	<name>B0168</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-1.250724,5.37415</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.86">
+	<name>B0170</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.538119,7.043234</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.87">
+	<name>B0172</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.094175,6.635666</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.88">
+	<name>B0174</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.354292,5.908112</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.89">
+	<name>B0176</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.088545,5.889915</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.90">
+	<name>B0178</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.505994,6.223045</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.91">
+	<name>B0180</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.577495,6.107196</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.92">
+	<name>B0182</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.422743,6.360042</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.93">
+	<name>B0184</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-1.937021,5.265416</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.94">
+	<name>B0186</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.170383,5.312289</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.95">
+	<name>B0188</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.288226,6.023713</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.96">
+	<name>B0190</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.353464,5.880133</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.97">
+	<name>B0192</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.775578,6.536663</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.98">
+	<name>B0194</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.449709,6.33063</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.99">
+	<name>B0196</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-1.827922,5.416615</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.100">
+	<name>B0198</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.585186,6.731427</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.101">
+	<name>B0200</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.539631,6.076317</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.102">
+	<name>B0202</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.84228,6.331634</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.103">
+	<name>B0204</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.876092,6.305325</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.104">
+	<name>B0206</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-1.231024,5.445876</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.105">
+	<name>B0208</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-1.10407,5.439458</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.106">
+	<name>B0210</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.262453,6.537467</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.107">
+	<name>B0212</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-1.249566,5.64806</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.108">
+	<name>B0214</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-1.940714,5.414478</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.109">
+	<name>B0216</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.819014,6.704368</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.110">
+	<name>B0218</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-1.373309,5.651803</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.111">
+	<name>B0220</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.693008,6.911483</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.112">
+	<name>B0222</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.344233,5.917221</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.113">
+	<name>B0224</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.297357,6.363578</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.114">
+	<name>B0226</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.545198,6.116492</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.115">
+	<name>B0228</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.326936,6.326602</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.116">
+	<name>B0230</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-1.349393,5.606221</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.117">
+	<name>B0232</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.737824,6.470811</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.118">
+	<name>B0234</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.436203,6.339385</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.119">
+	<name>B0236</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-1.224571,5.418229</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.120">
+	<name>B0238</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-1.353455,5.671855</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.121">
+	<name>B0240</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.592449,6.119964</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.122">
+	<name>B0242</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-1.83967,5.647621</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.123">
+	<name>B0244</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.779435,6.713839</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.124">
+	<name>B0246</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-1.845208,5.43517</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.125">
+	<name>B0248</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.387558,7.015477</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.126">
+	<name>B0250</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.291142,6.425212</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.127">
+	<name>B0252</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.283265,5.89398</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.128">
+	<name>B0254</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.355679,6.545371</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.129">
+	<name>B0256</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.55353,6.120529</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.130">
+	<name>B0258</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.234852,5.278438</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.131">
+	<name>B0260</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-1.20976,5.417573</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.132">
+	<name>B0262</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.216615,6.226303</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.133">
+	<name>B0264</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.507873,6.355644</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.134">
+	<name>B0266</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.458712,6.381492</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.135">
+	<name>B0268</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.777413,6.709856</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.136">
+	<name>B0270</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.183533,6.61233</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.137">
+	<name>B0272</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.041549,5.743474</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.138">
+	<name>B0274</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.468618,6.381091</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.139">
+	<name>B0276</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.289152,5.977751</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.140">
+	<name>B0278</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.708076,6.876877</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.141">
+	<name>B0280</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.459946,6.325462</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.142">
+	<name>B0282</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.459951,6.37002</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.143">
+	<name>B0284</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-1.947335,5.323342</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.144">
+	<name>B0286</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.540999,6.117583</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.145">
+	<name>B0288</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.626302,6.968536</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.146">
+	<name>B0290</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.167249,5.319857</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.147">
+	<name>B0292</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.631932,6.961701</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.148">
+	<name>B0294</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.437923,6.350233</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.149">
+	<name>B0296</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.308352,5.869793</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.150">
+	<name>B0298</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.498994,6.259848</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.151">
+	<name>B0300</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-1.180311,5.502377</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.152">
+	<name>B0302</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.034672,5.755973</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.153">
+	<name>B0304</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.781472,6.315316</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.154">
+	<name>B0306</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.275149,6.410866</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.155">
+	<name>B0308</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.190133,5.325025</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.156">
+	<name>B0310</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.45467,6.997211</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.157">
+	<name>B0312</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.00081,5.681056</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.158">
+	<name>B0314</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.761989,6.569254</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.159">
+	<name>B0316</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.737424,6.405662</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.160">
+	<name>B0318</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.484117,6.257429</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.161">
+	<name>B0320</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-1.841045,7.056076</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.162">
+	<name>B0322</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-3.036868,6.57551</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.163">
+	<name>B0324</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.20695,6.286151</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.164">
+	<name>B0326</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.466825,6.366582</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.165">
+	<name>B0328</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.569749,6.088104</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.166">
+	<name>B0330</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.739833,6.13018</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.167">
+	<name>B0332</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.820175,6.269227</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.168">
+	<name>B0334</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.555262,6.096449</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.169">
+	<name>B0336</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.785697,6.550995</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.170">
+	<name>B0338</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.78787,6.322362</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.171">
+	<name>B0340</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.287832,6.371436</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.172">
+	<name>B0342</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.278989,5.897192</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.173">
+	<name>B0344</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.428704,6.345145</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.174">
+	<name>B0346</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.553901,6.140151</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.175">
+	<name>B0348</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.733167,6.464169</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.176">
+	<name>B0350</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.19962,6.587607</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.177">
+	<name>B0352</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.521485,6.341682</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.178">
+	<name>B0354</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.543406,6.097914</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.179">
+	<name>B0356</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.183763,5.980472</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.180">
+	<name>B0358</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.471975,6.395144</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.181">
+	<name>B0360</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.569714,6.726421</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.182">
+	<name>B0362</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.74598,6.173953</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.183">
+	<name>B0364</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.522514,6.306704</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.184">
+	<name>B0366</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-1.934674,5.866698</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.185">
+	<name>B0368</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-1.397564,5.637736</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.186">
+	<name>B0370</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-1.124553,5.553106</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.187">
+	<name>B0372</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-1.819059,5.656996</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.188">
+	<name>B0374</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.347467,5.908031</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.189">
+	<name>B0376</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.63077,6.966688</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.190">
+	<name>B0378</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-1.215648,5.657748</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.191">
+	<name>B0380</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.55897,6.750682</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.192">
+	<name>B0382</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.563188,6.091043</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.193">
+	<name>B0384</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.188799,5.317843</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.194">
+	<name>B0386</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.712568,6.826741</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.195">
+	<name>B0388</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-1.410457,5.622889</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.196">
+	<name>B0390</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.516239,6.284339</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.197">
+	<name>B0392</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.548194,6.068373</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.198">
+	<name>B0394</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.314888,6.312215</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.199">
+	<name>B0396</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.545398,6.123603</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.200">
+	<name>B0398</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.567291,6.082318</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.201">
+	<name>B0400</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.207676,6.291469</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.202">
+	<name>B0402</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.307714,6.335599</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.203">
+	<name>B0404</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-1.410262,5.637539</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.204">
+	<name>B0406</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.439595,6.369351</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.205">
+	<name>B0408</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-1.948977,7.009557</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.206">
+	<name>B0410</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.831991,6.254618</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.207">
+	<name>B0412</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-1.382838,5.658639</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.208">
+	<name>B0414</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.574617,6.118833</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.209">
+	<name>B0416</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.359355,5.916412</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.210">
+	<name>B0418</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-1.15149,5.397036</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.211">
+	<name>B0420</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.018685,7.0205</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.212">
+	<name>B0422</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.49653,6.228962</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.213">
+	<name>B0424</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.522574,6.308921</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.214">
+	<name>B0426</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.712466,6.891692</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.215">
+	<name>B0428</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.189185,5.346342</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.216">
+	<name>B0430</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.201763,5.130676</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.217">
+	<name>B0432</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.422885,6.316413</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.218">
+	<name>B0434</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.386059,7.030915</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.219">
+	<name>B0436</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-1.152773,5.551466</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.220">
+	<name>B0438</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.045657,5.774815</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.221">
+	<name>B0440</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-1.36541,5.664932</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.222">
+	<name>B0442</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.303789,6.309652</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.223">
+	<name>B0444</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-1.89694,5.402983</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.224">
+	<name>B0446</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.925399,6.45439</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.225">
+	<name>B0448</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-1.841266,5.674759</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.226">
+	<name>B0450</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.232208,6.270531</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.227">
+	<name>B0452</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.189634,6.610154</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.228">
+	<name>B0454</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.890721,6.329595</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.229">
+	<name>B0456</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.566841,6.078191</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.230">
+	<name>B0458</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.296069,5.897076</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.231">
+	<name>B0460</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-1.922353,5.241367</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.232">
+	<name>B0462</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.169004,5.337241</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.233">
+	<name>B0464</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.575315,6.149237</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.234">
+	<name>B0466</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.563649,6.133453</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.235">
+	<name>B0468</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-1.360266,5.522642</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.236">
+	<name>B0470</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.523411,6.201888</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.237">
+	<name>B0472</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.509878,6.210674</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.238">
+	<name>B0474</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-1.41701,5.547025</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.239">
+	<name>B0476</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-1.360028,5.522313</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.240">
+	<name>B0478</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-1.853169,5.296893</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.241">
+	<name>B0480</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-1.8872,5.3708</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.242">
+	<name>B0482</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.642225,6.95394</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.243">
+	<name>B0484</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.491251,6.247206</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.244">
+	<name>B0486</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.125586,5.032321</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.245">
+	<name>B0488</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.536789,6.12851</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.246">
+	<name>B0490</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.294044,6.32824</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.247">
+	<name>B0492</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.420811,6.335942</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.248">
+	<name>B0494</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-1.885418,5.639574</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.249">
+	<name>B0496</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-1.40879,5.632509</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.250">
+	<name>B0498</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.504398,6.28722</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.251">
+	<name>B0500</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.072939,6.666327</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.252">
+	<name>B0502</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.538146,6.065756</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.253">
+	<name>B0504</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.584633,6.152585</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.254">
+	<name>B0506</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-3.073998,6.72622</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.255">
+	<name>B0508</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.180151,5.336184</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.256">
+	<name>B0510</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.284791,6.397517</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.257">
+	<name>B0512</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.055996,5.692258</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.258">
+	<name>B0514</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.287899,5.994276</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.259">
+	<name>B0516</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-1.157264,5.431595</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.260">
+	<name>B0518</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-1.216063,5.512654</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.261">
+	<name>B0520</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.764031,6.691689</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.262">
+	<name>B0522</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.326908,6.303426</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.263">
+	<name>B0524</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-1.121795,5.651034</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.264">
+	<name>B0526</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.578937,6.115375</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.265">
+	<name>B0528</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-1.16762,5.447906</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.266">
+	<name>B0530</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-3.078131,6.730102</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.267">
+	<name>B0532</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.066865,5.684923</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.268">
+	<name>B0534</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-1.89617,5.448996</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.269">
+	<name>B0536</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-1.905218,7.04251</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.270">
+	<name>B0538</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.518853,6.270906</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.271">
+	<name>B0540</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.251964,5.288014</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.272">
+	<name>B0542</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.54933,6.134688</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.273">
+	<name>B0544</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-1.937153,5.862199</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.274">
+	<name>B0546</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.847733,6.708627</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.275">
+	<name>B0548</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.429102,6.375535</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.276">
+	<name>B0550</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.5062,6.191047</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.277">
+	<name>B0552</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.428533,6.350408</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.278">
+	<name>B0554</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.566709,6.080998</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.279">
+	<name>B0556</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-1.096113,5.418296</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.280">
+	<name>B0558</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.542271,6.073347</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.281">
+	<name>B0560</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.454899,6.945377</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.282">
+	<name>B0562</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.318583,6.319005</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.283">
+	<name>B0564</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.170701,6.954827</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.284">
+	<name>B0566</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.061436,5.772166</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.285">
+	<name>B0568</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.022175,5.892429</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.286">
+	<name>B0570</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.629053,6.801024</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.287">
+	<name>B0572</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.323843,6.279494</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.288">
+	<name>B0574</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.551427,6.119815</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.289">
+	<name>B0576</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.020197,7.014088</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.290">
+	<name>B0578</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.746006,6.460194</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.291">
+	<name>B0580</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.52932,6.34188</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.292">
+	<name>B0582</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.122712,7.0293</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.293">
+	<name>B0584</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-1.239954,5.438337</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.294">
+	<name>B0586</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.034933,5.669673</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.295">
+	<name>B0588</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.565397,6.095764</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.296">
+	<name>B0590</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-1.9612,5.157648</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.297">
+	<name>B0592</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.538277,7.016584</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.298">
+	<name>B0594</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-2.102679,6.644962</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.299">
+	<name>B0596</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.434102,6.3166</coordinates></Point>
+  </Placemark>
+  <Placemark id="border_ben.300">
+	<name>B0598</name>
+	<description>label in labels/border_ben.csv</description>
+      <Point><coordinates>-0.554524,6.139462</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>

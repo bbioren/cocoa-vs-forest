@@ -22,9 +22,20 @@ Also fill in:
 
 The point marks a single 10 m pixel. Judge the ~30 m around it. If it falls on a boundary, label the majority and note it.
 
+## Your files
+
+Each of you has your own pair of files, so you never edit the same file at the same time:
+
+| Person | Points to open | Answers go in |
+|---|---|---|
+| Ben | `border_ben.kml` | `border_ben.csv` |
+| Kyvalya | `border_kyvalya.kml` | `border_kyvalya.csv` |
+
+Commit your CSV whenever you like. A partly finished file is fine. `scripts/export_studio.py` merges both CSVs. If both of you labelled a point and disagree, the point is dropped.
+
 ## Tools (pick one)
 
-**Google Earth Pro (easiest).** Open `border_candidates.kml`. Click each point and use the clock icon (historical imagery) to pick a 2024–25 image. Record answers in `border_candidates.csv`, either in a spreadsheet or by editing the CSV directly.
+**Google Earth Pro (easiest).** Install with `brew install --cask google-earth-pro`, then open your `border_<name>.kml`. Click each point and use the clock icon (historical imagery) to pick a 2024–25 image. Record answers in your `border_<name>.csv`, using Numbers/Excel or by editing the CSV directly. Keep the `cand_id` column intact.
 
 **QGIS.**
 1. Install: `brew install --cask qgis`.
