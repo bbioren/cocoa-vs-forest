@@ -29,6 +29,7 @@ Run:  uv run python scripts/export_studio.py
 
 from __future__ import annotations
 
+import argparse
 import json
 from pathlib import Path
 
@@ -49,6 +50,13 @@ SQUARE_M = 30          # point labels become 3x3-pixel squares
 SHRINK_M = 10          # farm polygons shrink by one pixel
 MIN_FARM_PX = 2
 SEED = 0
+# --balanced (v1): v0's labels were ~62% cocoa / 26% other / 12% forest by area, and degraded forest
+# only ~2%, so the model learned "patchy canopy = cocoa". Balanced export: each cocoa farm is clipped
+# to a COCOA_CAP_M square around an interior point (keeps every farm, caps its area), degraded-forest
+# points become DEGRADED_M squares, and only GALAMSEY_FRAC of the (easy) galamsey points are kept.
+COCOA_CAP_M = 30
+DEGRADED_M = 50
+GALAMSEY_FRAC = 0.5
 
 
 def month_range(ts: pd.Series) -> tuple[pd.Series, pd.Series]:
@@ -57,9 +65,9 @@ def month_range(ts: pd.Series) -> tuple[pd.Series, pd.Series]:
     return start.dt.strftime("%Y-%m-%d"), end.dt.strftime("%Y-%m-%d")
 
 
-def squares(g: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
+def squares(g: gpd.GeoDataFrame, m: float = SQUARE_M) -> gpd.GeoDataFrame:
     g = g.copy()
-    g["geometry"] = g.geometry.buffer(SQUARE_M / 2, cap_style="square")
+    g["geometry"] = g.geometry.buffer(m / 2, cap_style="square")
     return g
 
 
@@ -69,6 +77,10 @@ def block_id(g: gpd.GeoDataFrame) -> pd.Series:
 
 
 def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--balanced", action="store_true", help="v1 class-balanced export (see COCOA_CAP_M)")
+    a = ap.parse_args()
+    out = OUT / "v1" if a.balanced else OUT
     rng = np.random.default_rng(SEED)
     farms = gpd.read_file(GPKG, layer="cocoa_farms")
     other = gpd.read_file(GPKG, layer="other_points")
@@ -79,10 +91,22 @@ def main():
     farms["geometry"] = farms.geometry.buffer(-SHRINK_M)
     farms = farms[~farms.geometry.is_empty & farms.geometry.notna()]
     farms["geometry"] = farms.geometry.simplify(2)
-    cocoa = farms.assign(label="cocoa", source="cersgis_farm")[["label", "source", "collected", "geometry"]]
+    farms["block0"] = block_id(farms)  # split on the unclipped farm, so clipping can't move it across blocks
+    if a.balanced:
+        box = farms.geometry.representative_point().buffer(COCOA_CAP_M / 2, cap_style="square")
+        farms["geometry"] = farms.geometry.intersection(box, align=False)
+        farms = farms[~farms.geometry.is_empty]
+    cocoa = farms.assign(label="cocoa", source="cersgis_farm")[["label", "source", "collected", "block0", "geometry"]]
 
     # other + CERSGIS degraded forest
-    oth = squares(other).assign(source="cersgis_" + other["cersgis_class"].str.lower().str.replace("[^a-z]+", "_", regex=True))
+    if a.balanced:
+        gal = other["cersgis_class"].str.lower().str.contains("galamsey")
+        other = other[~gal | (rng.random(len(other)) < GALAMSEY_FRAC)]
+        deg = other["label"].eq("forest")
+        oth = pd.concat([squares(other[~deg]), squares(other[deg], DEGRADED_M)])
+    else:
+        oth = squares(other)
+    oth = oth.assign(source="cersgis_" + oth["cersgis_class"].str.lower().str.replace("[^a-z]+", "_", regex=True))
     oth = oth[["label", "source", "collected", "geometry"]]
 
     # auto forest: borrow months from the cocoa distribution
@@ -114,7 +138,7 @@ def main():
     allg = gpd.GeoDataFrame(pd.concat(parts, ignore_index=True), crs=UTM)
     allg["collected"] = pd.to_datetime(allg["collected"])
     allg["start_time"], allg["end_time"] = month_range(allg["collected"])
-    allg["block"] = block_id(allg)
+    allg["block"] = allg["block0"].fillna(block_id(allg)) if "block0" in allg else block_id(allg)
 
     # fixed spatial hold-out
     if BLOCKS.exists():
@@ -137,7 +161,7 @@ def main():
         pd.DataFrame({"block": sorted(test_blocks)}).to_csv(BLOCKS, index=False)
     is_test = allg["block"].isin(test_blocks)
 
-    OUT.mkdir(parents=True, exist_ok=True)
+    out.mkdir(parents=True, exist_ok=True)
     cols = ["label", "start_time", "end_time", "source", "geometry"]
     train = allg.loc[~is_test, cols].to_crs(4326)
     test = allg.loc[is_test, cols].to_crs(4326)
@@ -145,7 +169,7 @@ def main():
     # browser upload path is limited to 10 MB); the hold-out keeps it for per-source scoring.
     for name, g, keep in [("train_upload", train, ["label", "start_time", "end_time"]),
                           ("test_holdout", test, ["label", "start_time", "end_time", "source"])]:
-        p = OUT / f"{name}.geojson"
+        p = out / f"{name}.geojson"
         d = json.loads(g[keep + ["geometry"]].to_json(drop_id=True))
         def rnd(c):
             return [rnd(x) for x in c] if isinstance(c[0], list) else [round(c[0], 5), round(c[1], 5)]
@@ -158,10 +182,12 @@ def main():
         "test": test.groupby(["label", "source"]).size().to_dict(),
         "n_train": len(train), "n_test": len(test),
         "test_blocks": len(test_blocks), "all_blocks": int(allg["block"].nunique()),
-        "train_mb": round((OUT / "train_upload.geojson").stat().st_size / 1e6, 1),
+        "train_mb": round((out / "train_upload.geojson").stat().st_size / 1e6, 1),
     }
     summary = {k: ({f"{a}/{b}": v for (a, b), v in d.items()} if isinstance(d, dict) else d) for k, d in summary.items()}
-    (OUT / "export_summary.json").write_text(json.dumps(summary, indent=2))
+    a_ha = allg.loc[~is_test].assign(a=allg.area).groupby("label").a.sum()
+    summary["train_area_share"] = (a_ha / a_ha.sum()).round(3).to_dict()
+    (out / "export_summary.json").write_text(json.dumps(summary, indent=2))
     print(json.dumps(summary, indent=2))
 
 
