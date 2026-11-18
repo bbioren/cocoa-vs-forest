@@ -94,3 +94,9 @@ Model b77572f6 "cocoa-vs-forest v1 BALANCED 160m Jan-Dec": Base, spatial 85/15, 
 ACCIDENT: at 17:14 the meter-check walkthrough clicked through the wizard's last step, where "Next" becomes
 "Build Model", and built 6e0cea62 (Tiny, 75/25, v0 labels; same name as v0). It cannot be renamed; kept as a
 Tiny-vs-Base ablation rather than deleted. Meter: 136/500 before v1, ~166 after.
+
+## holdout2024, v0 (prediction 32864543) — in-period, held-out blocks
+n=2,217 (6 no-data). 3-class acc 0.891, macro F1 0.883. Forest-binary acc 0.899, recall 0.835, precision 0.81.
+Per source: reserve 0.998, galamsey 0.938, oil palm 0.928, rubber 0.900, cocoa farm 0.888, **degraded forest 0.543**.
+So degraded forest is weak even on same-period imagery: a training-balance / class-definition problem, not just
+2020 domain shift. Supports the v1 rebalancing. (Studio's random-split val said 98.7% acc; spatial hold-out says 89%.)
