@@ -86,8 +86,14 @@ def chip(rel: int, lat: float, lon: float) -> Image.Image:
     canvas = Image.new("RGB", (256 * 3, 256 * 3))
     for dx in (-1, 0, 1):
         for dy in (-1, 0, 1):
-            r = S.get(TILE.format(rel=rel, z=Z, y=cy + dy, x=cx + dx), timeout=30, allow_redirects=True)
-            if r.ok and r.headers.get("content-type", "").startswith("image"):
+            r = None
+            for _ in range(4):  # Wayback drops connections under load; retry
+                try:
+                    r = S.get(TILE.format(rel=rel, z=Z, y=cy + dy, x=cx + dx), timeout=30, allow_redirects=True)
+                    break
+                except requests.RequestException:
+                    continue
+            if r is not None and r.ok and r.headers.get("content-type", "").startswith("image"):
                 canvas.paste(Image.open(io.BytesIO(r.content)).convert("RGB"), ((dx + 1) * 256, (dy + 1) * 256))
     px, py = (fx - cx + 1) * 256, (fy - cy + 1) * 256  # point position on the canvas
     h = CHIP // 2
