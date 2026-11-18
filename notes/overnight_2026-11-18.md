@@ -37,3 +37,15 @@ Per slice: cocoa 0.999, other 1.000, forest_reserve 1.000, forest_degraded 0.008
 Caveat: the cocoa score is inflated by circularity (GFC2020 masks cocoa with the FDaP model trained partly on
 CERSGIS), and the reserve-forest points were selected with GFC2020 == 1. The informative number is
 forest_degraded: GFC2020 misses almost all field-surveyed open/degraded forest.
+
+## v0 finished 14:49 UTC (~8.4 h). Studio validation metrics (spatial 85/15 val split, pixel level)
+Overall acc 98.7%, mean F1 96.1%, 148,651 val pixels.
+| class | precision | recall | F1 | GT pixels |
+|---|---|---|---|---|
+| cocoa | 99.7 | 99.8 | 99.8 | 114,777 |
+| other | 95.4 | 98.1 | 96.7 | 23,332 |
+| forest | 95.5 | 88.5 | 91.9 | 10,542 |
+Confusion (rows true; cols cocoa/other/forest): cocoa 114563/84/130; other 127/22894/311; forest 193/1019/9330.
+Main error: forest -> other (1,019 px, ~10% of forest). Cocoa vs forest confusion is small (130 + 193).
+Pixel-weighted (cocoa polygons dominate), and Studio's val split is not our block hold-out, so expect lower on ours.
+wandb: https://wandb.ai/eai-ai2/olmoearth_run_develop/runs/65ynp9fg (Ai2-internal; may not be viewable)
