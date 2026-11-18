@@ -83,15 +83,32 @@ def fetch(a):
     print(f"{len(rids)} prediction result(s)")
 
     def one(r):
-        out = {"cand_id": r.cand_id}
+        out = {"cand_id": r.cand_id, "pred": None}
         for rid in rids:
-            q = S.get(f"{API}/prediction-results/{rid}/pixel-value", params={"lon": r.lon, "lat": r.lat}, timeout=60)
-            if q.ok:
-                out["raw"] = q.text[:500]
-                if q.text.strip() not in ("", "null", "{}"):
+            for _ in range(3):
+                try:
+                    q = S.get(f"{API}/prediction-results/{rid}/pixel-value",
+                              params={"lon": r.lon, "lat": r.lat}, timeout=60)
                     break
-            else:
-                out["raw"] = f"HTTP {q.status_code}"
+                except requests.RequestException:
+                    q = None
+            if q is None or not q.ok:
+                out["err"] = f"HTTP {getattr(q, 'status_code', 'conn')}"
+                continue
+            recs = q.json().get("records") or []
+            if not recs:
+                continue
+            b = {x["property_name"]: x for x in recs[0]["bands"]}
+            cls = lambda k: (b.get(k) or {}).get("classification") or {}
+            raw = lambda k: (b.get(k) or {}).get("raw_value")
+            out["pred"] = cls("label").get("label")
+            for rank, ck in [(1, "label"), (2, "label_rank2_class"), (3, "label_rank3_class")]:
+                c, pr = cls(ck).get("label"), raw(f"label_rank{rank}_prob")
+                if c and pr is not None:
+                    out[f"p_{c}"] = round(pr / 254, 4)
+            out["file"] = recs[0]["prediction_result_file"]["file_name"]
+            if out["pred"]:
+                break
         return out
 
     with ThreadPoolExecutor(16) as ex:
@@ -99,7 +116,7 @@ def fetch(a):
     df = pd.DataFrame(rows)
     Path(a.out).parent.mkdir(parents=True, exist_ok=True)
     df.to_csv(a.out, index=False)
-    print(df.raw.value_counts().head(15).to_string())
+    print(df.pred.value_counts(dropna=False).to_string())
 
 
 def main():

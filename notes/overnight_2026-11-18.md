@@ -49,3 +49,10 @@ Confusion (rows true; cols cocoa/other/forest): cocoa 114563/84/130; other 127/2
 Main error: forest -> other (1,019 px, ~10% of forest). Cocoa vs forest confusion is small (130 + 193).
 Pixel-weighted (cocoa polygons dominate), and Studio's val split is not our block hold-out, so expect lower on ours.
 wandb: https://wandb.ai/eai-ai2/olmoearth_run_develop/runs/65ynp9fg (Ai2-internal; may not be viewable)
+
+## Predictions via API
+- Trial: 20 cocoa_2020 points on 2020 imagery, prediction 6b347dcd (result 2e6edfb0), ~64 min. 15/20 cocoa, 5 forest.
+  pixel-value returns class + top-3 probs (raw/254). Results are web-optimised GeoTIFFs grouped by region.
+- Compute meter: 80/500 after v0 (31) + probe (31) + trial -> trial ~18 units?? Cost may scale with the
+  raster extent Studio builds around grouped windows, not with point count. Measuring with a 100-point
+  stratified batch (f310998d, data/test2020/batch100.csv) before running the full sets.
