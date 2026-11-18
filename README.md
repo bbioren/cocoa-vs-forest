@@ -15,6 +15,8 @@ The EU Deforestation Regulation (EUDR) bars imports of commodities such as cocoa
 3. **Fine-tune.** Fine-tune OlmoEarth with a segmentation head via [rslearn](https://github.com/allenai/rslearn).
 4. **Evaluate.** Compare against GFC2020 and existing cocoa maps, with emphasis on shaded cocoa.
 
+See [`PLAN.md`](PLAN.md) for the timeline and task owners.
+
 ## Data status
 
 Labels are built from open data; see [`scripts/README.md`](scripts/README.md) for the pipeline, counts, caveats and licences.
