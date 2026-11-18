@@ -100,3 +100,5 @@ n=2,217 (6 no-data). 3-class acc 0.891, macro F1 0.883. Forest-binary acc 0.899,
 Per source: reserve 0.998, galamsey 0.938, oil palm 0.928, rubber 0.900, cocoa farm 0.888, **degraded forest 0.543**.
 So degraded forest is weak even on same-period imagery: a training-balance / class-definition problem, not just
 2020 domain shift. Supports the v1 rebalancing. (Studio's random-split val said 98.7% acc; spatial hold-out says 89%.)
+
+Tiny (6e0cea62) completed ~23:25 UTC; submitted test2020-tiny 002248d3, holdout2024-tiny 20a0f837. Probe predictions: test2020 2a33ec6b, holdout2024 61ce691e.
