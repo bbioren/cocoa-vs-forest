@@ -110,3 +110,4 @@ holdout2024 (n=2,221): forest-binary recall 0.711, precision 0.656. Sources: res
 galamsey 0.705, oil palm 0.495, degraded 0.206.
 => Freezing the encoder clearly hurts in-period (oil palm, galamsey, degraded forest). The 2020 3-class number looks
 close to v0 only because the probe calls less forest. Fine-tuning the encoder matters.
+v0 on same 1,660 points: see results/scores.csv row v0-test2020-common1660. 104 probe points (87 cocoa) have no data in the probe's output raster (re-fetch confirmed).
