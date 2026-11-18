@@ -102,3 +102,11 @@ So degraded forest is weak even on same-period imagery: a training-balance / cla
 2020 domain shift. Supports the v1 rebalancing. (Studio's random-split val said 98.7% acc; spatial hold-out says 89%.)
 
 Tiny (6e0cea62) completed ~23:25 UTC; submitted test2020-tiny 002248d3, holdout2024-tiny 20a0f837. Probe predictions: test2020 2a33ec6b, holdout2024 61ce691e.
+
+## Frozen probe (80d08a99) results
+test2020 (104 points returned no prediction; n=1,660): 3-class acc 0.834, forest-binary acc 0.872, recall 0.763,
+precision 0.839. Slices: cocoa 0.886, reserve 1.0, degraded 0.210, converted 0.108, other 0.840.
+holdout2024 (n=2,221): forest-binary recall 0.711, precision 0.656. Sources: reserve 0.992, rubber 0.910, cocoa 0.882,
+galamsey 0.705, oil palm 0.495, degraded 0.206.
+=> Freezing the encoder clearly hurts in-period (oil palm, galamsey, degraded forest). The 2020 3-class number looks
+close to v0 only because the probe calls less forest. Fine-tuning the encoder matters.
