@@ -111,3 +111,8 @@ galamsey 0.705, oil palm 0.495, degraded 0.206.
 => Freezing the encoder clearly hurts in-period (oil palm, galamsey, degraded forest). The 2020 3-class number looks
 close to v0 only because the probe calls less forest. Fine-tuning the encoder matters.
 v0 on same 1,660 points: see results/scores.csv row v0-test2020-common1660. 104 probe points (87 cocoa) have no data in the probe's output raster (re-fetch confirmed).
+
+## Tiny (6e0cea62) on holdout2024 (01:25 UTC)
+n=2217: 3-class acc 0.792 (v0 Base 0.891), macro F1 0.772; forest recall 0.695, precision 0.826.
+Sources: reserve 0.998, farm 0.957, rubber 0.840, oil palm 0.780, galamsey 0.742, degraded 0.152.
+Tiny over-predicts cocoa (169 other->cocoa, 120 forest->cocoa). Base encoder clearly better; Tiny test2020 still predicting.
