@@ -122,3 +122,5 @@ Tiny over-predicts cocoa (169 other->cocoa, 120 forest->cocoa). Base encoder cle
 Slices: cocoa 0.984, reserve 1.0, other 0.746, degraded 0.121 (v0 0.449), converted 0.027 (v0 0.459).
 The higher headline accuracy is misleading: test2020 is 46% cocoa and Tiny leans cocoa. On the EUDR-critical
 slices (degraded, converted) it is far worse than v0. Headline accuracy alone would rank Tiny > v0, which is a point for the paper.
+
+## v1 (b77572f6) completed 04:45 UTC Nov 19. Predictions: test2020-v1 5bd6fb2d-6b5e-4b8c-983d-848a5f005092, holdout2024-v1 d15f09ce-e115-4471-8717-339a98bfe8a6.
