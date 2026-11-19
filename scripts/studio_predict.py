@@ -101,9 +101,13 @@ def fetch(a):
             b = {x["property_name"]: x for x in recs[0]["bands"]}
             cls = lambda k: (b.get(k) or {}).get("classification") or {}
             raw = lambda k: (b.get(k) or {}).get("raw_value")
-            out["pred"] = cls("label").get("label")
-            for rank, ck in [(1, "label"), (2, "label_rank2_class"), (3, "label_rank3_class")]:
-                c, pr = cls(ck).get("label"), raw(f"label_rank{rank}_prob")
+            # the band is named after the dataset's label field ("label", "label_v1", ...)
+            f = next((k for k in b if not k.endswith(("_class", "_prob"))), None)
+            if f is None:
+                continue
+            out["pred"] = cls(f).get("label")
+            for rank, ck in [(1, f), (2, f"{f}_rank2_class"), (3, f"{f}_rank3_class")]:
+                c, pr = cls(ck).get("label"), raw(f"{f}_rank{rank}_prob")
                 if c and pr is not None:
                     out[f"p_{c}"] = round(pr / 254, 4)
             out["file"] = recs[0]["prediction_result_file"]["file_name"]
