@@ -116,3 +116,9 @@ v0 on same 1,660 points: see results/scores.csv row v0-test2020-common1660. 104 
 n=2217: 3-class acc 0.792 (v0 Base 0.891), macro F1 0.772; forest recall 0.695, precision 0.826.
 Sources: reserve 0.998, farm 0.957, rubber 0.840, oil palm 0.780, galamsey 0.742, degraded 0.152.
 Tiny over-predicts cocoa (169 other->cocoa, 120 forest->cocoa). Base encoder clearly better; Tiny test2020 still predicting.
+
+## Tiny (6e0cea62) on test2020 (n=1755)
+3-class acc 0.853 (v0 0.823), forest-binary acc 0.908, recall 0.742, precision 0.961.
+Slices: cocoa 0.984, reserve 1.0, other 0.746, degraded 0.121 (v0 0.449), converted 0.027 (v0 0.459).
+The higher headline accuracy is misleading: test2020 is 46% cocoa and Tiny leans cocoa. On the EUDR-critical
+slices (degraded, converted) it is far worse than v0. Headline accuracy alone would rank Tiny > v0, which is a point for the paper.
